@@ -1,4 +1,4 @@
-Quizgame1
+Quiz-game1
 Interactive Front-End Development Project using HTML, CSS and Javascript
 
 Am I Responsive
