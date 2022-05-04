@@ -1,108 +1,301 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Quizgame1
+Interactive Front-End Development Project using HTML, CSS and Javascript
 
-Welcome jamesrcutmore,
+Am I Responsive
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A live website can be found here.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Table of Contents
+About
+Users Experience(UX)
+Project Goals
+Target Audience
+User Stories
+Design
+Wireframe
+Features
+Existing Features
+Features Left to Implement
+Technologies-Used
+Testing
+Deployment
+Credit
+Content
+Media
+Acknowledgements
+About
+What better than a Web development quiz! fun and you can learm as you go .
 
-## Gitpod Reminders
+A good knowledge tester and reinforce your learning as you go.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This Quiz is designed to include a range of questions about basic element  types of Html and css. The game has multiple choice and 10 questions,test your knowledge ,Have fun!
 
-`python3 -m http.server`
+Users Experience (UX)
+Project Goals
+The primary goal of this project is to set up a form of game ,for the players measure their knowledge in Html & css knowledge.
 
-A blue button should appear to click: _Make Public_,
+The secondary goal is to help test the memory itself and have fun on the way.
 
-Another blue button should appear to click: _Open Browser_.
+Target Audience
+The target audience would be anyone wishing to test there knowledge in basic web development or who wishes to explore learn more about this subject.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This will help keep the mind fresh on basic understanding .
 
-A blue button should appear to click: _Make Public_,
+young and old, male and female.
 
-Another blue button should appear to click: _Open Browser_.
+The best way to promote our quiz game is through online shares on social media and advertisments.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Uers Stories
+General User Goals
 
-To log into the Heroku toolbelt CLI:
+As a Quiz lover, I want to find interesting subjects, so that it broadens my knowledge.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+As a Quiz buff, I want to find a quiz, so that I can test my knowledge level about different subjects.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+As a general knowledge lover, I want to find a variety of knowledge, so that I can spend time enjoying learning them.
 
-------
+As an explorer , I want to explore through games, so that I can find interesting ideas and topics.
 
-## Release History
+As a competitive person, I want to find a competitive game, so that I can challenge myself.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As a music lover, I want to listen to music while I'm answering the questions, so that I get both visual and audio stimulation.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+As a goal achiever, I want to save the scores, so that I can drive to go past that score each time when I play.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+As a mobile user, I want an application that is mobile friendly, so that I can use it on my mobile.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+First Time Visitor Goals
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+As a First Time Visitor, I want to be able to easily navigate throughout the site to give the Quiz game a try.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+As a First Time Visitor, I want to know about the developer information and their social media links.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Returning Visitor Goals
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+As a Returning Visitor, I want to find the leader board and beat my last score.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+As a Returning Visitor, I them to retest there knowledge and keep learning.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Design
+Colour Scheme
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The two main colours used are red and yellow, you can find a copy of the colour palette here
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Typography
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Franklin Gothic Medium is the main font used throughout the whole website for main text and buttons, with Arial Narrow, Arial, sans-serif as the fallback font in case of any reason the font isn't being imported into the site correctly. Franklin Gothic is an common font and it suits the scheme and makes the website appealing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The headline font is Oswal by google font with sans-serif as the fallback font. It fits in the feel of the site perfectly.
 
-------
+Imagery
 
-## FAQ about the uptime script
+Imagery is very important. The background hero image is designed to grab the user's attention and give the users the feeling as if they are in a cinema.
 
-**Why have you added this script?**
+The end game illustrations demonstrate to the user how they did, gives immediate feed back, not only appealing but also encouraging.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Wireframes
+Desktop wireframe
 
-**How will this affect me?**
+Tablet wireframe
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Mobile wireframe
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Features
+Existing Features
+Homepage navigation - consists of three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Music on and off switch - which allows the users to switch on the music if they would like to.
 
-**So….?**
+clickable footer contains copyright and developer social media links.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Progress text - shows how many questions the user has finished so far and how many questions are left in the game.
 
-**Can I opt out?**
+Progress bar - indicates the percentage of the questions that have been done in the game at this particular moment.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Score updates - tells the user how many points they have gained so far in the game.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Display question section - allow the users to see the displayed question and participate.
 
-**Anything more?**
+Multiple-choice section - gives the users four choices they can choose from.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Right(green) or Wrong answer(red) - indicates to the users if they have selected the right or wrong answer.
 
----
+Right/wrong answer audio gives the users the 2D user experience.
 
-Happy coding!
+Options to switch off the sound effect and go back to the home page at any stage of the game.
+
+Automatically directs the user to the end page when the game is finished and shows the final score.
+
+Displays an end image and audio depending on the score achieved.
+
+A mute music button is also avaliable in the end page.
+
+End page navigation - consists of three main buttons which allows the users to save their name and score, play again or go back to the homepage.
+
+High Score indication bar - tells the users how many points in total they have gained.
+
+Username Input field - gives the users the options to enter their name and save their score in the local storage.
+
+The save button is only clickable when there is an input value in the input field.
+
+Features Left to Implement
+Displaying relative images in each questions to enhance users visual experience.
+
+Playing different audio for different final score scenarios.
+
+Only one sound button needed to be clicked throughout all pages.
+
+Technologies Used
+Languages Used
+HTML5
+
+The language used to give the site its main structure and all necessary features.
+CSS3
+
+The language used to give the application its visual effects including the font, color and layout etc.
+Javascript
+
+The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+Frameworks, Libraries & Programs Used
+VScode
+
+Visual Studio Code has been used as a local code editor for write and manage all codes and files.
+Github
+
+Github is used to create, store and maintain all codes in a repository.
+
+Github is also used as the site hosting service for the final website to be published on.
+
+Git Version control
+
+Git 2.31.1 for Mac is used for commit and push codes to Github.
+Google Fonts
+
+The font used on this quiz were chosen from Google fonts.
+Fontawesome
+
+The icons used on this quiz were found in Fontawesome.
+Balsamiq
+
+The wireframes were created using Balsamiq.
+Google DevTools
+
+Google DevTools was extensively used throughout the project for various styling, testing and debugging purposes.
+Am I Responsive
+
+Am I responsive has been used to test the responsiveness of the site and also to create the mock-up image presented at the start of this document.
+W3C Markup Validation service
+
+W3C Markup Validation Service has been used to test the HTML codes.
+W3C CSS Validation Service
+
+W3C CSS Validation Service has been used to test the CSS codes.
+tinypng.com
+
+tinypng.com has been used to compress large images.
+coolors
+
+coolors has been used to decide the color scheme for the site.
+Open Trivia Database
+
+Open Trivia Database has been used to get the main questions for the quiz.
+Testing
+Testing information can be found in a seperate file testing.md
+
+Deployment
+Deploy To GitHub Pages
+Logged into Github account.
+
+Select repository.
+
+Select CI-MS2_MovieQuiz.
+
+On the top right navigation click on settings.
+
+Under the settings section, scroll down to the GitHub Pages section.
+
+Select Main Branch from the source dropdown menu.
+
+Click save.
+
+Once clicked, this publishes the project to GitHub Pages and displays the site URL. Click on the URL to view the live site.
+
+Making a clone or download zip to run locally
+Log into GitHub account.
+
+Select repository.
+
+Select CI-MS2_MovieQuiz.
+
+Click on the Code dropdown button next to the green Gitpod button.
+
+Click on the clipboard icon to copy the clone URL.
+
+Open Git Bash.
+
+Change the current working directory to the location where you want the cloned directory.
+
+Type "git clone" in the Command Line and then paste the URL copied in step 5.
+
+Press enter to create your local clone.
+
+Alternately, click on Download ZIP, unpack locally and open with a local code editor.
+
+Forking the GitHub Repository
+Log into GitHub.
+
+Select repository.
+
+Select CI-MS2_MovieQuiz.
+
+At the very top right corner click "fork".
+
+You will have a copy of the original repository in your own GitHub account.
+
+Credits
+Content
+Throughout the process of doing this project I have done a lot of searching and learning. The codes that are copied and pasted have been marked as a comment in the relevant files. All the rest of the codes are written by myself after learning from resources. The resources and the links I used to learn each concepts are the following:
+
+Codes
+
+w3schools - audio, javascript modal, loader, cubic-bezier, javascript objects, setInterval and clearInterval, setTimeout, Array splice, DOM changing CSS, JSON.parse(), Math.floor(), CSS background-image, CSS box-shadow, Array map()
+
+stackoverflow - display options randomly, difference between innerText and innerHTML, convert an object key value into an array
+
+MDN Web Docs - Math.max(), window.location.assign(), window.localStorage, Array.prototype.join(), Element.classList, parseInt(), Spread syntax, forEach, Fetch API
+
+Youtube Videos
+
+James Q Quick's Quiz App video
+
+Dani Krossing's favicon video
+
+Muhanad Hasan's timer video
+
+For creating the bouncing arrow on the front page from codepen
+
+7 Methods for Comparing Arrays in JavaScript
+
+User Experience
+
+How To Define Your Target Audience in 6 Quick Questions
+
+How to write a good user story
+
+Media
+Images
+
+Acknowledgements
+I would like to thank:
+
+My mentor Antonio Rodriguez for his encouragement and patience when my frustration kicked in at the start of this project. Thanks to his guidence and help, Thanks so much!.
+
+Help and support from fellow students in the Slack community.
+
+Tutor support and student care team.
+
+My wife Lyndsay cutmore with , support and help with testing and encouragement.
+
+Should you have any queries please reach me on rob_cutmore@hotmail.com
