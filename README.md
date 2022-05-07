@@ -48,7 +48,7 @@ The best way to promote our quiz game is through online shares on social media a
 Uers Stories
 General User Goals
 
-As a Quiz lover, I want to find interesting subjects, so that it broadens my knowledge.
+As a Quiz fan, I want to find interesting subjects, so that it broadens my knowledge.
 
 As a Quiz buff, I want to find a quiz, so that I can test my knowledge level about different subjects.
 
@@ -58,30 +58,26 @@ As an explorer , I want to explore through games, so that I can find interesting
 
 As a competitive person, I want to find a competitive game, so that I can challenge myself.
 
-As a music lover, I want to listen to music while I'm answering the questions, so that I get both visual and audio stimulation.
-
-As a goal achiever, I want to save the scores, so that I can drive to go past that score each time when I play.
-
 As a mobile user, I want an application that is mobile friendly, so that I can use it on my mobile.
 
 First Time Visitor Goals
 
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
 
-As a First Time Visitor, I want to be able to easily navigate throughout the site to give the Quiz game a try.
+As a First Time Visitor, I want to be able to easily navigate throughout the site to give the Quiz game a go.
 
 As a First Time Visitor, I want to know about the developer information and their social media links.
 
 Returning Visitor Goals
 
-As a Returning Visitor, I want to find the leader board and beat my last score.
+As a Returning Visitor, I want them to beat them last score.
 
 As a Returning Visitor, I them to retest there knowledge and keep learning.
 
 Design
 Colour Scheme
 
-The two main colours used are red and yellow, you can find a copy of the colour palette here
+The two main colours used are white  and blue, you can find a copy of the colour palette here
 
 Typography
 
@@ -104,48 +100,15 @@ Mobile wireframe
 
 Features
 Existing Features
-Homepage navigation - consists of three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
-
-Music on and off switch - which allows the users to switch on the music if they would like to.
 
 clickable footer contains copyright and developer social media links.
 
-Progress text - shows how many questions the user has finished so far and how many questions are left in the game.
-
-Progress bar - indicates the percentage of the questions that have been done in the game at this particular moment.
-
-Score updates - tells the user how many points they have gained so far in the game.
+Score updates - this comes at the end , so you have to finish before you see.
 
 Display question section - allow the users to see the displayed question and participate.
 
-Multiple-choice section - gives the users four choices they can choose from.
-
-Right(green) or Wrong answer(red) - indicates to the users if they have selected the right or wrong answer.
-
-Right/wrong answer audio gives the users the 2D user experience.
-
-Options to switch off the sound effect and go back to the home page at any stage of the game.
-
 Automatically directs the user to the end page when the game is finished and shows the final score.
 
-Displays an end image and audio depending on the score achieved.
-
-A mute music button is also avaliable in the end page.
-
-End page navigation - consists of three main buttons which allows the users to save their name and score, play again or go back to the homepage.
-
-High Score indication bar - tells the users how many points in total they have gained.
-
-Username Input field - gives the users the options to enter their name and save their score in the local storage.
-
-The save button is only clickable when there is an input value in the input field.
-
-Features Left to Implement
-Displaying relative images in each questions to enhance users visual experience.
-
-Playing different audio for different final score scenarios.
-
-Only one sound button needed to be clicked throughout all pages.
 
 Technologies Used
 Languages Used
@@ -194,9 +157,6 @@ W3C CSS Validation Service
 W3C CSS Validation Service has been used to test the CSS codes.
 tinypng.com
 
-tinypng.com has been used to compress large images.
-coolors
-
 coolors has been used to decide the color scheme for the site.
 Open Trivia Database
 
@@ -210,7 +170,7 @@ Logged into Github account.
 
 Select repository.
 
-Select CI-MS2_MovieQuiz.
+Select CI-MS2_Quiz.
 
 On the top right navigation click on settings.
 
@@ -227,7 +187,7 @@ Log into GitHub account.
 
 Select repository.
 
-Select CI-MS2_MovieQuiz.
+Select CI-MS2_Quiz.
 
 Click on the Code dropdown button next to the green Gitpod button.
 
@@ -248,7 +208,7 @@ Log into GitHub.
 
 Select repository.
 
-Select CI-MS2_MovieQuiz.
+Select CI-MS2_Quiz.
 
 At the very top right corner click "fork".
 
@@ -272,8 +232,6 @@ James Q Quick's Quiz App video
 
 Dani Krossing's favicon video
 
-Muhanad Hasan's timer video
-
 For creating the bouncing arrow on the front page from codepen
 
 7 Methods for Comparing Arrays in JavaScript
@@ -290,7 +248,7 @@ Images
 Acknowledgements
 I would like to thank:
 
-My mentor Antonio Rodriguez for his encouragement and patience when my frustration kicked in at the start of this project. Thanks to his guidence and help, Thanks so much!.
+My mentor Antonio Rodriguez for his encouragement and patience . Thanks to his guidence and help, Thanks so much!.
 
 Help and support from fellow students in the Slack community.
 
