@@ -76,20 +76,23 @@ As a Returning Visitor, I them to retest there knowledge and keep learning.
 
 Design
 Colour Scheme
+hsl 206 92% 94%)
+#fff
+rgba 0 0 0 0.4
+#74b9ff
+#0984e3
+#dfe6e9
+rgba 0 0 0 0.4
+#55efc4
+#2d3436
+#00b894
 
 The two main colours used are white  and blue, you can find a copy of the colour palette here
 
-Typography
+Typography: font-family is Josefin Sans and sans-serif
 
-Franklin Gothic Medium is the main font used throughout the whole website for main text and buttons, with Arial Narrow, Arial, sans-serif as the fallback font in case of any reason the font isn't being imported into the site correctly. Franklin Gothic is an common font and it suits the scheme and makes the website appealing.
 
-The headline font is Oswal by google font with sans-serif as the fallback font. It fits in the feel of the site perfectly.
-
-Imagery
-
-Imagery is very important. The background hero image is designed to grab the user's attention and give the users the feeling as if they are in a cinema.
-
-The end game illustrations demonstrate to the user how they did, gives immediate feed back, not only appealing but also encouraging.
+The end game, will be a final score.
 
 Wireframes
 Desktop wireframe
@@ -158,9 +161,8 @@ W3C CSS Validation Service has been used to test the CSS codes.
 tinypng.com
 
 coolors has been used to decide the color scheme for the site.
-Open Trivia Database
+All questions where made up, within a web development theme.
 
-Open Trivia Database has been used to get the main questions for the quiz.
 Testing
 Testing information can be found in a seperate file testing.md
 
@@ -227,12 +229,8 @@ stackoverflow - display options randomly, difference between innerText and inner
 MDN Web Docs - Math.max(), window.location.assign(), window.localStorage, Array.prototype.join(), Element.classList, parseInt(), Spread syntax, forEach, Fetch API
 
 Youtube Videos
+ Quiz App video
 
-James Q Quick's Quiz App video
-
-Dani Krossing's favicon video
-
-For creating the bouncing arrow on the front page from codepen
 
 7 Methods for Comparing Arrays in JavaScript
 
