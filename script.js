@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) }
+document.addEventListener("DOMContentLoaded", function(event) '{'
 const quizDB = [
     {
         question: "Q1: What is the full form of HTML?",
