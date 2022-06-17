@@ -276,4 +276,4 @@ if(questionCount < quizDB.length){
 
 
 } );
-
+}
