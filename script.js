@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function(event) {}
+document.addEventListener("DOMContentLoaded", function(event) {
 
 const quizDB = [
     {
-        question: "Q1: What is the full form of HTML?",
+        question: "What is the full form of HTML?",
         a: "Hello to my land",
         b: "Hey text markup language",
         c: "Hypertext markup language",
@@ -11,7 +11,7 @@ const quizDB = [
 
     },
     {
-       question: "Q2: What is the full form of CSS?",
+       question: "What is the full form of CSS?",
        a: "Cascading Style sheets",
        b: "Cascading Style sheeps",
        c: "Cascading Super sheets",
@@ -19,7 +19,7 @@ const quizDB = [
        ans: "ans1"
     },
     {
-       question: "Q3: What is the full form of HTTP?",
+       question: "What is the full form of HTTP?",
        a: "Hypertext transfer prototype",
        b: "Hypertext transfer product",
        c: "Hey Transfer Protocol",
@@ -27,7 +27,7 @@ const quizDB = [
        ans: "ans4"
     },
     {
-       question: "Q4: What is the full form of JS?",
+       question: "What is the full form of JS?",
        a: "Javascript",
        b: "Javasuper",
        c: "JustScript",
@@ -35,7 +35,7 @@ const quizDB = [
        ans: "ans1"
     },
     {
-       question: "Q5: HTML is what type of language ?",
+       question: "HTML is what type of language ?",
        a: "Scripting Language",
        b: "Markup Language",
        c: "Programming Language",
@@ -43,7 +43,7 @@ const quizDB = [
        ans: "ans2"
     },
     {
-        question: "Q6:HTML uses",
+        question: "HTML uses",
         a: "User defined Tags",
         b: "Pre-specified tags",
         c:"Fixed tags defined by the language",
@@ -51,7 +51,7 @@ const quizDB = [
         ans: "ans3"
     }, 
     {
-       question: "Q7:What should be the first tag in any HTML document?",
+       question: "What should be the first tag in any HTML document?",
        a: "<head>",
        b: "<title>",
        c:"<html>",
@@ -59,7 +59,7 @@ const quizDB = [
        ans: "ans3"
    }, 
    {
-       question: "Q8:Fundamental HTML Block is known as",
+       question: "Fundamental HTML Block is known as",
        a: "HTML body",
        b: "HTML Tag",
        c:"HTML Attribute",
@@ -67,7 +67,7 @@ const quizDB = [
        ans: "ans2"
    },
    {
-       question: "Q9:How can you make a bulleted list with numbers?",
+       question: "How can you make a bulleted list with numbers?",
        a: "<dl>",
        b: "<ol>",
        c:"<list>",
@@ -75,7 +75,7 @@ const quizDB = [
        ans: "ans2"
    },  
    {
-       question: "Q10:What tag is used to display a picture in a HTML page?",
+       question: "What tag is used to display a picture in a HTML page?",
        a: "picture",
        b: "image",
        c:"img",
@@ -83,7 +83,7 @@ const quizDB = [
        ans: "ans3"
    },
    {
-   question: "Q11:A page designed in HTML is called?",
+   question: "A page designed in HTML is called?",
        a: "Application",
        b: "cover page",
        c:"front end",
@@ -91,15 +91,15 @@ const quizDB = [
        ans: "ans4"
    },
    {
-       question: "Q12:The HTML document contains a root tag called ?",
+       question: "The HTML document contains a root tag called ?",
            a: "HEAD",
            b: "Title",
            c:"Body",
            d:" HTML",
            ans: "ans4"
-       },
+    },
        {
-           question: "Q13:If we want to place text around an image, which CSS property should we use?",
+           question: "If we want to place text around an image, which CSS property should we use?",
                a: "push",
                b: "float",
                c:"align",
@@ -107,7 +107,7 @@ const quizDB = [
                ans: "ans2"
            },
            {
-               question: "Q14:Choose the correct HTML tag for a large title?",
+               question: "Choose the correct HTML tag for a large title?",
                    a: "H1",
                    b: "Heading",
                    c:"Head",
@@ -115,7 +115,7 @@ const quizDB = [
                    ans: "ans1"
                },
                {
-               question: "Q15:If we want to use a nice green dotted border around an image, which css property are we going to use?",
+               question: "If we want to use a nice green dotted border around an image, which css property are we going to use?",
                    a: "border-line",
                    b: "border-style",
                    c:"border-decoration",
@@ -123,7 +123,7 @@ const quizDB = [
                    ans: "ans2"
                },
                {
-                   question: "Q16:An HTML document can contain",
+                   question: "An HTML document can contain",
                        a: "Attributes",
                        b: "Tags",
                        c:"Raw text",
@@ -131,7 +131,7 @@ const quizDB = [
                        ans: "ans4"
                    },
                    {
-                       question: "Q17:An HTML document is saved with the extension.",
+                       question: "An HTML document is saved with the extension.",
                            a: ".htl",
                            b: ".html",
                            c:" .hml",
@@ -139,7 +139,7 @@ const quizDB = [
                            ans: "ans2"
                        },
                        {
-                           question: "Q17:An HTML document is saved with the extension.",
+                           question: "An HTML document is saved with the extension.",
                                a: ".htl",
                                b: ".html",
                                c:" .hml",
@@ -147,7 +147,7 @@ const quizDB = [
                                ans: "ans2"
                            },
                            {
-                               question: "Q18:HTML is considered as",
+                               question: "HTML is considered as",
                                    a: "Programming language",
                                    b: "OOP language",
                                    c:"High level language",
@@ -155,7 +155,7 @@ const quizDB = [
                                    ans: "ans4"
                                },
                                {
-                                   question: "Q19:Who is the main author of the HTML",
+                                   question: "Who is the main author of the HTML",
                                        a: "Brendan Eich",
                                        b: "Tim Berners-Lee",
                                        c:"Web developer",
@@ -163,19 +163,13 @@ const quizDB = [
                                        ans: "ans2"
                                    },
                                    {
-                                       question: "Q20:A stricter type of HTML document is known as",
+                                       question: "A stricter type of HTML document is known as",
                                            a: "DHTML",
                                            b: "XHTML",
                                            c:"XML",
                                            d:"HTML",
                                            ans: "ans2"
                                        },
-
-           
-       
-
-
-
 ]; 
 
 const question = document.querySelector(".question");
@@ -183,44 +177,40 @@ const option1 =document.querySelector("#option1");
 const option2 =document.querySelector("#option2");
 const option3 =document.querySelector("#option3");
 const option4 =document.querySelector("#option4");
-const option5 =document.querySelector("#option5");
-const option6 =document.querySelector("#option6");
-const option7 =document.querySelector("#option7");
-const option8 =document.querySelector("#option8");
-const option9 =document.querySelector("#option9");
-const option10=document.querySelector("#option10");
-const option11 =document.querySelector("#option11");
-const option12 =document.querySelector("#option12");
-const option13 =document.querySelector("#option13");
-const option14 =document.querySelector("#option14");
-const option15 =document.querySelector("#option15");
-const option16 =document.querySelector("#option16");
-const option17 =document.querySelector("#option17");
-const option18 =document.querySelector("#option18");
-const option19 =document.querySelector("#option19");
-const option20 =document.querySelector("#option20");
+// const option5 =document.querySelector("#option5");
+// const option6 =document.querySelector("#option6");
+// const option7 =document.querySelector("#option7");
+// const option8 =document.querySelector("#option8");
+// const option9 =document.querySelector("#option9");
+// const option10=document.querySelector("#option10");
+// const option11 =document.querySelector("#option11");
+// const option12 =document.querySelector("#option12");
+// const option13 =document.querySelector("#option13");
+// const option14 =document.querySelector("#option14");
+// const option15 =document.querySelector("#option15");
+// const option16 =document.querySelector("#option16");
+// const option17 =document.querySelector("#option17");
+// const option18 =document.querySelector("#option18");
+// const option19 =document.querySelector("#option19");
+// const option20 =document.querySelector("#option20");
 const submit =document.querySelector("#submit");
 
 const answers = document.querySelectorAll(".answer");
 const Showscore = document.querySelector("#Showscore");
-
+const maxQuestion = 5;
+let randomIndex = 0;
 let questionCount = 0;
 let score = 0;
 
 const loadquestion = () => {
-    const questionList = quizDB[questionCount];
-   question.innerText = questionList.question;
+    randomIndex = Math.floor(Math.random() * (quizDB.length - 1))
+    const questionList = quizDB[randomIndex];
+   question.innerText = `Q${questionCount+1}: ${questionList.question}`;
 
    option1.innerText = questionList.a;
    option2.innerText = questionList.b;
    option3.innerText = questionList.c;
    option4.innerText = questionList.d;
-
-
-
-
-
-
 }
 
 loadquestion();
@@ -248,32 +238,33 @@ getCheckAnswer = () => {
 
 submit.addEventListener('click' , () => {
 
-const checkedAnswer = getCheckAnswer();
-console.log(checkedAnswer);
+    const checkedAnswer = getCheckAnswer();
+    console.log(checkedAnswer);
 
-if(checkedAnswer === quizDB[questionCount].ans){
-   score++;
-};
+    if(checkedAnswer === quizDB[randomIndex].ans){
+    score++;
+    };
 
-questionCount ++;
-deselectAll();
+    questionCount ++;
+    deselectAll();
 
-if(questionCount < quizDB.length){
-   loadquestion();
-}else{
-   Showscore.innerHTML = `
-   <h3> You score ${score}/${quizDB.length}  </h3>
-   <button class= "btn" onclick= "location.reload()"> Play Again! </button>
-   
-   `;
-   Showscore.classList.remove("scorearea");
-   
-   
-
-
-}
+    if(questionCount < maxQuestion){
+    loadquestion();
+    }else{
+    Showscore.innerHTML = `
+    <h3> You score ${score}/${maxQuestion}  </h3>
+    <button class= "btn" onclick= "location.reload()"> Play Again! </button>
+    
+    `;
+    Showscore.classList.remove("scorearea");
+    
+    
 
 
+    }
 
-} );
+});
+
+});
+
 
