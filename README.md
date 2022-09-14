@@ -2,7 +2,7 @@
 
 Interactive Front-End Development Project using HTML, CSS and Javascript
 
-![Am I Responsive](assets/images/am-i-responsive.png)
+![Am I Responsive](assets/quiz-screenshot(2).jpg)
 
 A live website can be found [here](https://melindazhang2020.github.io/CI-MS2-MovieQuiz/).
 
