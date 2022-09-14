@@ -1,10 +1,8 @@
-# **CI-MS2-MovieQuiz**
-
-Interactive Front-End Development Project using HTML, CSS and Javascript
+#                  **Quiz-game1**
 
 ![Am I Responsive](assets/quiz-screenshot(2).jpg)
 
-A live website can be found [here](https://melindazhang2020.github.io/CI-MS2-MovieQuiz/).
+A live website can be found [here](https://8000-jamesrcutmore-quizgame1-xvzh4uwegvu.ws-eu64.gitpod.io/CI-MS2-Quiz-game1/).
 
 ## **Table of Contents**
 
