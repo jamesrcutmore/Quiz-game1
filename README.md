@@ -2,7 +2,7 @@
 
 ![Am I Responsive](assets/quiz-screenshot(2).jpg)
 
-A live website can be found [here](https://8000-jamesrcutmore-quizgame1-xvzh4uwegvu.ws-eu64.gitpod.io/CI-MS2-Quiz-game1/).
+A live website can be found [here](https://jamesrcutmore-quizgame1-xvzh4uwegvu.ws-eu64.gitpod.io/)
 
 ## **Table of Contents**
 
@@ -260,7 +260,7 @@ Testing information can be found in a seperate file [testing.md](testing.md)
 
 2. Select repository.
 
-3. Select CI-MS2_MovieQuiz.
+3. Select jamescutmore/Quiz-game1: quiz game ms2
 
 4. Click on the Code dropdown button next to the green Gitpod button.
 
@@ -282,7 +282,7 @@ Testing information can be found in a seperate file [testing.md](testing.md)
 
 2. Select repository.
 
-3. Select CI-MS2_MovieQuiz.
+3. Select jamescutmore/Quizgame1
 
 4. At the very top right corner click "fork".
 
@@ -304,13 +304,7 @@ Throughout the process of doing this project I have done a lot of searching and 
 
   - Youtube Videos
 
-    - [James Q Quick's Quiz App video](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
-
-    - [Dani Krossing's favicon video](https://www.youtube.com/watch?v=kEf1xSwX5D8)
-
-    - [Muhanad Hasan's timer video](https://www.youtube.com/watch?v=9-5URe9CykA&t=113s)
-
-  - For creating the bouncing arrow on the front page from [codepen](https://codepen.io/lloopp/pen/XWJKMNr)
+    - [James Q Quick's Quiz App video](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1ti
 
   - [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
 
@@ -328,13 +322,6 @@ Throughout the process of doing this project I have done a lot of searching and 
 
   - The end page images is downloaded from [icons8](https://icons8.com/).
 
-  - The favion displayed on top of the page in the tab area is made with [favicon.io](https://favicon.io/).
-
-- Audio
-
-  - The front page audio "sweet surrender" and the right/wrong answer ausio are downloaded using [WavePad](https://www.nch.com.au/wavepad/index.html?ns=true&kw=wavepad&gclid=Cj0KCQjwgtWDBhDZARIsADEKwgPKSGQMHu1oU7mhDP6HxH6ReUbm5iOsK_8w5u3KuxMPnmI2Z4XYqBwaAsfNEALw_wcB)
-
-  - The end page congrats audio is downloaded from [Chosic](https://www.chosic.com/)
 
 ### **Acknowledgements**
 
@@ -346,6 +333,6 @@ I would like to thank:
 
 - Tutor support and student care team.
 
-- My boyfriend Kevin Hurley's support and help with testing and encouragement.
+- My wife Lyndsay cutmore support and help with testing and encouragement.
 
-Should you have any queries please reach me on melinda_hongye@yahoo.com
+Should you have any queries please reach me on rob_cutmore@hotmail.com
