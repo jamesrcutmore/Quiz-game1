@@ -1,8 +1,8 @@
 #                  **Quiz-game1**
 
-![Am I Responsive](assets/quiz-screenshot(2).jpg)
+![Am I Responsive image of quiz game](images/quiz-screenshot(2).jpg)
 
-A live website can be found [here](https://8000-jamesrcutmore-quizgame1-txnhi7slu80.ws-eu64.gitpod.io/)
+A live website can be found [here](https://8000-jamesrcutmore-quizgame1-83h33nawity.ws-eu64.gitpod.io/)
 
 ## **Table of Contents**
 
@@ -12,7 +12,7 @@ A live website can be found [here](https://8000-jamesrcutmore-quizgame1-txnhi7sl
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
   - [Design](#design)
-  - [Wireframe](#wireframe)
+  - [Wireframe](images/2022-09-18%20(2).jpg)
 - [Features](#Features)
   - [Existing Features](#existing-features)
   - [Features Left to Implement](#features-left-to-implement)
