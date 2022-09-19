@@ -26,17 +26,17 @@ A live website can be found [here](https://8000-jamesrcutmore-quizgame1-83h33naw
 
 ## **About**
 
-Who doesn't like a good old quiz?! Quizzes are a fun way to spend your time when you are bored, you are not only entertained but also gain knowledge along the way!
+Everyone loves a quiz?! They fun way to fill your spare time, Keep you , your children and your family entertained!
 
-Do you think you love watching movies and have watched a lot of movies in the past, that you consider yourself a movie buff? Take a few minutes complete the quiz, you will find out if that is true!
+This quiz in perticular is based on the web development, how much do you really know? Take a little time complete the quiz, and you will find out!
 
-This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of. It's made of 125 questions, each game has 10 questions, each correct question gains 10 points. So you can keep playing and aim for that 100 points each time! Have fun!
+This Quiz is designed to include a wide range of randomised questions about all types of web development basics. So ive ive build the site and my read.me ive renforced my knowledge, and you can too, each game has 10 random  questions, At the end , you will get your score and the chance to try again.. Have fun!
 
 ## **Users Experience (UX)**
 
 ### **Project Goals**
 
-- The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure their knowledge in films.
+- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in Htnl&css.
 
 - The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
 
