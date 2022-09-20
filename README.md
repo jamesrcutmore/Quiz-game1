@@ -2,7 +2,7 @@
 
 ![Am I Responsive image of quiz game](assets/quizscreenshot.jpg)
 
-A live website can be found [here](https://github.com/jamesrcutmore/Quiz-game1/)
+A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 ## **Table of Contents**
 
