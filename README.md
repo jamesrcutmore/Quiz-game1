@@ -42,7 +42,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 ### **Target Audience**
 
-- Considering the format of the quiz for this project, as there won't be pictures displayed in the question, our target audience will be over 16 year old.
+- This quiz is aimed at any age bracket or audience.
 
 - In today's world, everything is international, and that includes the film industry. Most of the popular movies are known by the majority of people of the world. Considering that, our target audience's location is global.
 
