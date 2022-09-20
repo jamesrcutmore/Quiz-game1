@@ -1,6 +1,6 @@
 #                  **Quiz-game1**
 
-![Am I Responsive image of quiz game](images/quiz-screenshot(2).jpg)
+![Am I Responsive image of quiz game](assets/quizscreenshot.jpg)
 
 A live website can be found [here](https://8000-jamesrcutmore-quizgame1-83h33nawity.ws-eu64.gitpod.io/)
 
