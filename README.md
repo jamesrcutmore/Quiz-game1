@@ -38,15 +38,13 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in HTML&CSS.
 
-- The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
+- The secondary goal is to help the user get their thinking mind on,imrove short-term memory and sharpen their knowledge of the subject.
 
 ### **Target Audience**
 
 - This quiz is aimed at any age bracket or audience.
 
 - With todays online markets growing, and the world of internet ever exspanding.They will be a greater demand for web developers so lets have a quiz about this subject and incourage people to study this subject.
-
-- ...................../////////.
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
@@ -74,7 +72,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
   - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try.
 
-  - As a First Time Visitor, I want to know about the developer information and their social media links.
+  - As a First Time Visitor, I want to know about the developer and their social media links.
 
 - **Returning Visitor Goals**
 
@@ -84,14 +82,14 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 ### **Design**
 
-- **Colour Scheme**
+- **Colour Scheme** 
 
-  The two main colours used are red and yellow, you can find a copy of the colour palette [here](assets/documentation/MS2-color-palette.pdf)
+    The background colour
 
 - **Typography**
 
   - The main font throughout the quiz is Josefin Sans with a back up font of sans-serif.Here we used google fonts.
-  - [googlefonts](https://www.google.com/search?q=google+fonts&rlz=1C1CHZN_enGB960GB960&oq=googlefon&aqs=chrome.1.69i57j0i10i512l9.7307j0j7&sourceid=chrome&ie=UTF-8.)
+  - [Google Fonts](https://fonts.google.com/)
 
 - **Imagery**
 
@@ -190,8 +188,6 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
   - The font used on this quiz were chosen from Google fonts.
 
-- [Fontawesome](https://fontawesome.com/)
-
   - The icons used on this quiz were found in Fontawesome.
 
 - [Balsamiq](https://balsamiq.com/)
@@ -214,18 +210,6 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
   - W3C CSS Validation Service has been used to test the CSS codes.
 
-- [tinypng.com](https://tinypng.com/)
-
-  - tinypng.com has been used to compress large images.
-
-- [coolors](https://coolors.co/)
-
-  - coolors has been used to decide the color scheme for the site.
-
-- [Open Trivia Database](https://opentdb.com/api_config.php)
-
-  - Open Trivia Database has been used to get the main questions for the quiz.
-
 ## **Testing**
 
 Testing information can be found in a seperate file [testing.md](testing.md)
@@ -238,7 +222,7 @@ Testing information can be found in a seperate file [testing.md](testing.md)
 
 2. Select repository.
 
-3. Select CI-MS2_MovieQuiz.
+3. Select Jamescutmore-Quizgame1.
 
 4. On the top right navigation click on settings.
 
@@ -298,15 +282,11 @@ Throughout the process of doing this project I have done a lot of searching and 
 
   - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max) - [Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max), [window.location.assign()](https://developer.mozilla.org/en-US/docs/Web/API/Location/assign), [window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join), [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt), [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-  - Youtube Videos
-
-    - [James Q Quick's Quiz App video](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1ti
-
   - [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
 
 - User Experience
 
-  - [How To Define Your Target Audience in 6 Quick Questions](https://exposureninja.com/blog/define-your-target-audience/)
+  - [How To find your Target audience..Adam Erhart..](https://youtu.be/FzEkHlYt2uA/)
 
   - [How to write a good user story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#.YFM57o-2eQY.linkedin)
 
@@ -314,9 +294,8 @@ Throughout the process of doing this project I have done a lot of searching and 
 
 - Images
 
-  - Front page background image is downloaded from [unsplash](https://unsplash.com/).
-
-  - The end page images is downloaded from [icons8](https://icons8.com/).
+  - The main image for the quiz is the Qeustion an the multible choice of answers.
+  - Also there is a submit button to press once youve made your choice.
 
 
 ### **Acknowledgements**
