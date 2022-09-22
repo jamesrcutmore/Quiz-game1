@@ -84,7 +84,18 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - **Colour Scheme** 
 
-    The background colour
+  - background-color:hsl 206,92%,94%
+  - Inner-div- background-color: #fff
+  - box-shadow: 0 1rem 1rem -0.7rem rgba 0, 0, 0, 0.4 
+  - Submit. Buttoncolor: #fff
+  _ Hover-over Submit button: background-color: #0984e3
+
+  - Show score button and background-color: #55efc4;
+    color: #2d3436
+  -Show score button and hover over: background-color: #00b894;
+    color: #fff; 
+
+
 
 - **Typography**
 
