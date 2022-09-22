@@ -119,49 +119,22 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 ### **Existing Features**
 
-- Homepage navigation - consists of three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
+- Homepage jumps straight inio the first question. 
 
-- Music on and off switch - which allows the users to switch on the music if they would like to.
+- The fisrt question is visable at the top of the page.
 
-- clickable footer contains copyright and developer social media links.
-
-- Progress text - shows how many questions the user has finished so far and how many questions are left in the game.
-
-- Progress bar - indicates the percentage of the questions that have been done in the game at this particular moment.
-
-- Score updates - tells the user how many points they have gained so far in the game.
-
-- Display question section - allow the users to see the displayed question and participate.
+- Radio buttons can be clicked to chose an answer.
 
 - Multiple-choice section - gives the users four choices they can choose from.
 
-- Right(green) or Wrong answer(red) - indicates to the users if they have selected the right or wrong answer.
+- Once you've made all 10 choices a submit button should be pressed.
 
-- Right/wrong answer audio gives the users the 2D user experience.
+- once the game is finished it will shows the final score.
 
-- Options to switch off the sound effect and go back to the home page at any stage of the game.
-
-- Automatically directs the user to the end page when the game is finished and shows the final score.
-
-- Displays an end image and audio depending on the score achieved.
-
-- A mute music button is also avaliable in the end page.
-
-- End page navigation - consists of three main buttons which allows the users to save their name and score, play again or go back to the homepage.
-
-- High Score indication bar - tells the users how many points in total they have gained.
-
-- Username Input field - gives the users the options to enter their name and save their score in the local storage.
-
-- The save button is only clickable when there is an input value in the input field.
+- A try again button will then be presented
 
 ### **Features Left to Implement**
 
-- Displaying relative images in each questions to enhance users visual experience.
-
-- Playing different audio for different final score scenarios.
-
-- Only one sound button needed to be clicked throughout all pages.
 
 ## **Technologies Used**
 
@@ -223,7 +196,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 ## **Testing**
 
-Testing information can be found in a seperate file [testing.md](testing.md)
+- Testing was implemented through W3C CSS and mark up validation
 
 ## **Deployment**
 
