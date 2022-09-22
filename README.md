@@ -1,9 +1,9 @@
-#                  **Quiz-game1**
+#                                  **Quiz-game1**
+# Interactive Front-End Development Project using HTML,CSS and Javascript
 
 ![Am I Responsive image of quiz game](assets/quizscreenshot.jpg)
-
+#                                      James cutmore Quiz-game1-2022-MS2
 A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
-
 ## **Table of Contents**
 
 - [About](#About)
@@ -36,7 +36,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 ### **Project Goals**
 
-- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in Htnl&css.
+- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in HTML&CSS.
 
 - The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
 
@@ -44,9 +44,9 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - This quiz is aimed at any age bracket or audience.
 
-- In today's world, everything is international, and that includes the film industry. Most of the popular movies are known by the majority of people of the world. Considering that, our target audience's location is global.
+- With todays online markets growing, and the world of internet ever exspanding.They will be a greater demand for web developers so lets have a quiz about this subject and incourage people to study this subject.
 
-- As there's no evidence to show that men love watching moives more than women or vice versa (even though I hear a lot from my female friends that their men watch the same movie over and over!), our target audience will be both genders.
+- ...................../////////.
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
@@ -54,21 +54,19 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - **General User Goals**
 
-  - As a movie lover, I want to find movie related activities, so that it broadens my entertainments options.
+  - As a Quiz lover, I want to find quiz related activities, so that it broadens my knowledge and understanding.
 
-  - As a movie buff, I want to find a quiz, so that I can test my knowledge level about movies.
+  - As an inquisitive person, I want to find a quiz, so that I can have fun and learn with.
 
-  - As a gamer, I want to find interesting games, so that I can spend time enjoying playing them.
+  - As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
 
-  - As an explorer , I want to explore through games, so that I can find interesting ideas and topics.
+  - As a learner , I want to learn through games, so that I can lear knowledge and idea's.
 
-  - As a competitive person, I want to find a competitive game, so that I can challenge myself.
+  - As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
 
-  - As a music lover, I want to listen to music while I'm answering the questions, so that I get both visual and audio stimulation.
+  - As a Quiz competitor, I want to beat my last score ,when it is shown at the end.
 
-  - As a goal achiever, I want to save the scores, so that I can drive to go past that score each time when I play.
-
-  - As a mobile user, I want an application that is mobile friendly, so that I can use it on my mobile.
+  - As a I-phone user, I want an app that is easy to use and is mobile friendly, so that I can use it on my mobile.
 
 - **First Time Visitor Goals**
 
@@ -80,9 +78,9 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - **Returning Visitor Goals**
 
-  - As a Returning Visitor, I want to find the leader board and beat my last score.
+  - As a Returning Visitor, I want to see my score at he end so i can progress.
 
-  - As a Returning Visitor, I want to see if there is a higher score saved in the system so I can try to beat it.
+  - As a Returning Visitor, I want to see if i can beat my previous score.
 
 ### **Design**
 
@@ -92,16 +90,14 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - **Typography**
 
-  - Franklin Gothic Medium is the main font used throughout the whole website for main text and buttons, with Arial Narrow, Arial, sans-serif as the fallback font in case of any reason the font isn't being imported into the site correctly. Franklin Gothic is an common font and it suits the scheme and makes the website appealing.
-
-  - The headline font is Oswal by google font with sans-serif as the fallback font. It fits in the feel of the site perfectly.
+  - The main font throughout the quiz is Josefin Sans with a back up font of sans-serif.Here we used google fonts.
+  - [googlefonts](https://www.google.com/search?q=google+fonts&rlz=1C1CHZN_enGB960GB960&oq=googlefon&aqs=chrome.1.69i57j0i10i512l9.7307j0j7&sourceid=chrome&ie=UTF-8.)
 
 - **Imagery**
 
-  - Imagery is very important. The background hero image is designed to grab the user's attention and give the users the feeling as if they are in a cinema.
+  - The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
 
-  - The end game illustrations demonstrate to the user how they did, gives immediate feed back, not only appealing but also encouraging.
-
+  - The submit button has a hover over contrasting colour effect.
 ### **Wireframes**
 
 [Desktop wireframe](assets/documentation/MS2-MovieQuiz-desktop.pdf)
