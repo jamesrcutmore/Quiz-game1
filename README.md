@@ -118,7 +118,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 [Tablet wireframe](assets/ms2quizgametablet.jpg)
 
-[Mobile wireframe](assets/ms2quizgameiphone.jpg)
+[Mobile wireframe](assets/ms2quizgameiphone.png)
 
 ## **Features**
 
