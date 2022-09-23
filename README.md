@@ -26,11 +26,11 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 ## **About**
 
-Everyone loves a quiz?! They fun way to fill your spare time, Keep you , your children and your family entertained!
+Everyone loves a quiz?! They fun way to fill your spare time and keep you and your family entertained!
 
 This quiz in perticular is based on the web development, how much do you really know? Take a little time complete the quiz, and you will find out!
 
-This Quiz is designed to include a wide range of randomised questions about all types of web development basics. So ive ive build the site and my read.me ive renforced my knowledge, and you can too, each game has 10 random  questions, At the end , you will get your score and the chance to try again.. Have fun!
+This Quiz is designed to include a wide range of randomised questions about all types of web development basics. So by building the site and my read.me ive renforced my knowledge, and you can too, each game has 10 random questions, At the end , you will get your score and the chance to try again.. Have fun!
 
 ## **Users Experience (UX)**
 
@@ -38,13 +38,13 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in HTML&CSS.
 
-- The secondary goal is to help the user get their thinking mind on,imrove short-term memory and sharpen their knowledge of the subject.
+- The secondary goal is to help the user get their thinking mind on,improve short-term memory and sharpen their knowledge of the subject.
 
 ### **Target Audience**
 
 - This quiz is aimed at any age bracket or audience.
 
-- With todays online markets growing, and the world of internet ever exspanding.They will be a greater demand for web developers so lets have a quiz about this subject and incourage people to study this subject.
+- With todays online markets growing, and the world of internet ever exspanding.They will be a greater demand for web developers so lets have a quiz about this subject and encourage people to study this subject.
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
@@ -58,7 +58,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
   - As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
 
-  - As a learner , I want to learn through games, so that I can lear knowledge and idea's.
+  - As a learner , I want to learn through games, so that I can gain knowledge and idea's.
 
   - As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
 
@@ -85,13 +85,18 @@ This Quiz is designed to include a wide range of randomised questions about all 
 - **Colour Scheme** 
 
   - background-color:hsl 206,92%,94%
+
   - Inner-div- background-color: #fff
-  - box-shadow: 0 1rem 1rem -0.7rem rgba 0, 0, 0, 0.4 
+
+  - box-shadow:  rgba 0, 0, 0, 0.4 
+
   - Submit. Buttoncolor: #fff
+
   _ Hover-over Submit button: background-color: #0984e3
 
   - Show score button and background-color: #55efc4;
     color: #2d3436
+
   -Show score button and hover over: background-color: #00b894;
     color: #fff; 
 
@@ -123,7 +128,7 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
 - The fisrt question is visable at the top of the page.
 
-- Radio buttons can be clicked to chose an answer.
+- Radio buttons can be clicked to choose an answer.
 
 - Multiple-choice section - gives the users four choices they can choose from.
 
@@ -172,7 +177,6 @@ This Quiz is designed to include a wide range of randomised questions about all 
 
   - The font used on this quiz were chosen from Google fonts.
 
-  - The icons used on this quiz were found in Fontawesome.
 
 - [Balsamiq](https://balsamiq.com/)
 
