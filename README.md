@@ -114,9 +114,9 @@ This Quiz is designed to include a wide range of randomised questions about all 
   - The submit button has a hover over contrasting colour effect.
 ### **Wireframes**
 
-[Desktop wireframe](assets/ms2quizgamedesktop.jpg)
+[Desktop wireframe](assets/ms2quizgamedesktop.png)
 
-[Tablet wireframe](assets/ms2quizgametablet.jpg)
+[Tablet wireframe](assets/ms2quizgametablet.png)
 
 [Mobile wireframe](assets/ms2quizgameiphone.png)
 
