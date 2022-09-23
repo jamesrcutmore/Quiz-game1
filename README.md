@@ -114,11 +114,11 @@ This Quiz is designed to include a wide range of randomised questions about all 
   - The submit button has a hover over contrasting colour effect.
 ### **Wireframes**
 
-[Desktop wireframe](assets/documentation/MS2-MovieQuiz-desktop.pdf)
+[Desktop wireframe](assets/ms2quizgamedesktop.jpg)
 
-[Tablet wireframe](assets/documentation/MS2-MovieQuiz-Tablet.pdf)
+[Tablet wireframe](assets/ms2quizgametablet.jpg)
 
-[Mobile wireframe](assets/documentation/MS2-MovieQuiz-Mobile.pdf)
+[Mobile wireframe](assets/ms2quizgameiphone.jpg)
 
 ## **Features**
 
