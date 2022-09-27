@@ -1,9 +1,9 @@
-#                  **Quiz-game1**
+#                                  **Quiz-game1**
+# Interactive Front-End Development Project using HTML,CSS and Javascript
 
-![Am I Responsive](assets/quiz-screenshot(2).jpg)
-
-A live website can be found [here](https://8000-jamesrcutmore-quizgame1-txnhi7slu80.ws-eu64.gitpod.io/)
-
+![Am I Responsive image of quiz game](assets/quizscreenshot.jpg)
+#                                      James cutmore Quiz-game1-2022-MS2
+A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ## **Table of Contents**
 
 - [About](#About)
@@ -12,7 +12,7 @@ A live website can be found [here](https://8000-jamesrcutmore-quizgame1-txnhi7sl
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
   - [Design](#design)
-  - [Wireframe](#wireframe)
+  - [Wireframe](images/2022-09-18%20(2).jpg)
 - [Features](#Features)
   - [Existing Features](#existing-features)
   - [Features Left to Implement](#features-left-to-implement)
@@ -26,27 +26,25 @@ A live website can be found [here](https://8000-jamesrcutmore-quizgame1-txnhi7sl
 
 ## **About**
 
-Who doesn't like a good old quiz?! Quizzes are a fun way to spend your time when you are bored, you are not only entertained but also gain knowledge along the way!
+Everyone loves a quiz?! They fun way to fill your spare time and keep you and your family entertained!
 
-Do you think you love watching movies and have watched a lot of movies in the past, that you consider yourself a movie buff? Take a few minutes complete the quiz, you will find out if that is true!
+This quiz in perticular is based on the web development, how much do you really know? Take a little time complete the quiz, and you will find out!
 
-This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of. It's made of 125 questions, each game has 10 questions, each correct question gains 10 points. So you can keep playing and aim for that 100 points each time! Have fun!
+This Quiz is designed to include a wide range of randomised questions about all types of web development basics. So by building the site and my read.me ive renforced my knowledge, and you can too, each game has 10 random questions, At the end , you will get your score and the chance to try again.. Have fun!
 
 ## **Users Experience (UX)**
 
 ### **Project Goals**
 
-- The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure their knowledge in films.
+- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in HTML&CSS.
 
-- The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
+- The secondary goal is to help the user get their thinking mind on,improve short-term memory and sharpen their knowledge of the subject.
 
 ### **Target Audience**
 
-- Considering the format of the quiz for this project, as there won't be pictures displayed in the question, our target audience will be over 16 year old.
+- This quiz is aimed at any age bracket or audience.
 
-- In today's world, everything is international, and that includes the film industry. Most of the popular movies are known by the majority of people of the world. Considering that, our target audience's location is global.
-
-- As there's no evidence to show that men love watching moives more than women or vice versa (even though I hear a lot from my female friends that their men watch the same movie over and over!), our target audience will be both genders.
+- With todays online markets growing, and the world of internet ever exspanding.They will be a greater demand for web developers so lets have a quiz about this subject and encourage people to study this subject.
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
@@ -54,21 +52,19 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - **General User Goals**
 
-  - As a movie lover, I want to find movie related activities, so that it broadens my entertainments options.
+  - As a Quiz lover, I want to find quiz related activities, so that it broadens my knowledge and understanding.
 
-  - As a movie buff, I want to find a quiz, so that I can test my knowledge level about movies.
+  - As an inquisitive person, I want to find a quiz, so that I can have fun and learn with.
 
-  - As a gamer, I want to find interesting games, so that I can spend time enjoying playing them.
+  - As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
 
-  - As an explorer , I want to explore through games, so that I can find interesting ideas and topics.
+  - As a learner , I want to learn through games, so that I can gain knowledge and idea's.
 
-  - As a competitive person, I want to find a competitive game, so that I can challenge myself.
+  - As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
 
-  - As a music lover, I want to listen to music while I'm answering the questions, so that I get both visual and audio stimulation.
+  - As a Quiz competitor, I want to beat my last score ,when it is shown at the end.
 
-  - As a goal achiever, I want to save the scores, so that I can drive to go past that score each time when I play.
-
-  - As a mobile user, I want an application that is mobile friendly, so that I can use it on my mobile.
+  - As a I-phone user, I want an app that is easy to use and is mobile friendly, so that I can use it on my mobile.
 
 - **First Time Visitor Goals**
 
@@ -76,87 +72,74 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
   - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try.
 
-  - As a First Time Visitor, I want to know about the developer information and their social media links.
+  - As a First Time Visitor, I want to know about the developer and their social media links.
 
 - **Returning Visitor Goals**
 
-  - As a Returning Visitor, I want to find the leader board and beat my last score.
+  - As a Returning Visitor, I want to see my score at he end so i can progress.
 
-  - As a Returning Visitor, I want to see if there is a higher score saved in the system so I can try to beat it.
+  - As a Returning Visitor, I want to see if i can beat my previous score.
 
 ### **Design**
 
-- **Colour Scheme**
+- **Colour Scheme** 
 
-  The two main colours used are red and yellow, you can find a copy of the colour palette [here](assets/documentation/MS2-color-palette.pdf)
+  - background-color:hsl 206,92%,94%
+
+  - Inner-div- background-color: #fff
+
+  - box-shadow:  rgba 0, 0, 0, 0.4 
+
+  - Submit. Buttoncolor: #fff
+
+  _ Hover-over Submit button: background-color: #0984e3
+
+  - Show score button and background-color: #55efc4;
+    color: #2d3436
+
+  -Show score button and hover over: background-color: #00b894;
+    color: #fff; 
+
+
 
 - **Typography**
 
-  - Franklin Gothic Medium is the main font used throughout the whole website for main text and buttons, with Arial Narrow, Arial, sans-serif as the fallback font in case of any reason the font isn't being imported into the site correctly. Franklin Gothic is an common font and it suits the scheme and makes the website appealing.
-
-  - The headline font is Oswal by google font with sans-serif as the fallback font. It fits in the feel of the site perfectly.
+  - The main font throughout the quiz is Josefin Sans with a back up font of sans-serif.Here we used google fonts.
+  - [Google Fonts](https://fonts.google.com/)
 
 - **Imagery**
 
-  - Imagery is very important. The background hero image is designed to grab the user's attention and give the users the feeling as if they are in a cinema.
+  - The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
 
-  - The end game illustrations demonstrate to the user how they did, gives immediate feed back, not only appealing but also encouraging.
-
+  - The submit button has a hover over contrasting colour effect.
 ### **Wireframes**
 
-[Desktop wireframe](assets/documentation/MS2-MovieQuiz-desktop.pdf)
+![Desktop wireframe](assets/ms2quizgamedesktop.jpg)
 
-[Tablet wireframe](assets/documentation/MS2-MovieQuiz-Tablet.pdf)
+![Tablet wireframe](assets/ms2quizgametablet.jpg)
 
-[Mobile wireframe](assets/documentation/MS2-MovieQuiz-Mobile.pdf)
+![Mobile wireframe](assets/ms2quizgameiphone.jpg)
 
 ## **Features**
 
 ### **Existing Features**
 
-- Homepage navigation - consists of three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
+- Homepage jumps straight inio the first question. 
 
-- Music on and off switch - which allows the users to switch on the music if they would like to.
+- The fisrt question is visable at the top of the page.
 
-- clickable footer contains copyright and developer social media links.
-
-- Progress text - shows how many questions the user has finished so far and how many questions are left in the game.
-
-- Progress bar - indicates the percentage of the questions that have been done in the game at this particular moment.
-
-- Score updates - tells the user how many points they have gained so far in the game.
-
-- Display question section - allow the users to see the displayed question and participate.
+- Radio buttons can be clicked to choose an answer.
 
 - Multiple-choice section - gives the users four choices they can choose from.
 
-- Right(green) or Wrong answer(red) - indicates to the users if they have selected the right or wrong answer.
+- Once you've made all 10 choices a submit button should be pressed.
 
-- Right/wrong answer audio gives the users the 2D user experience.
+- once the game is finished it will shows the final score.
 
-- Options to switch off the sound effect and go back to the home page at any stage of the game.
-
-- Automatically directs the user to the end page when the game is finished and shows the final score.
-
-- Displays an end image and audio depending on the score achieved.
-
-- A mute music button is also avaliable in the end page.
-
-- End page navigation - consists of three main buttons which allows the users to save their name and score, play again or go back to the homepage.
-
-- High Score indication bar - tells the users how many points in total they have gained.
-
-- Username Input field - gives the users the options to enter their name and save their score in the local storage.
-
-- The save button is only clickable when there is an input value in the input field.
+- A try again button will then be presented
 
 ### **Features Left to Implement**
 
-- Displaying relative images in each questions to enhance users visual experience.
-
-- Playing different audio for different final score scenarios.
-
-- Only one sound button needed to be clicked throughout all pages.
 
 ## **Technologies Used**
 
@@ -194,9 +177,6 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
   - The font used on this quiz were chosen from Google fonts.
 
-- [Fontawesome](https://fontawesome.com/)
-
-  - The icons used on this quiz were found in Fontawesome.
 
 - [Balsamiq](https://balsamiq.com/)
 
@@ -218,21 +198,9 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
   - W3C CSS Validation Service has been used to test the CSS codes.
 
-- [tinypng.com](https://tinypng.com/)
-
-  - tinypng.com has been used to compress large images.
-
-- [coolors](https://coolors.co/)
-
-  - coolors has been used to decide the color scheme for the site.
-
-- [Open Trivia Database](https://opentdb.com/api_config.php)
-
-  - Open Trivia Database has been used to get the main questions for the quiz.
-
 ## **Testing**
 
-Testing information can be found in a seperate file [testing.md](testing.md)
+- Testing was implemented through W3C CSS and mark up validation
 
 ## **Deployment**
 
@@ -242,7 +210,7 @@ Testing information can be found in a seperate file [testing.md](testing.md)
 
 2. Select repository.
 
-3. Select CI-MS2_MovieQuiz.
+3. Select Jamescutmore-Quizgame1.
 
 4. On the top right navigation click on settings.
 
@@ -302,15 +270,11 @@ Throughout the process of doing this project I have done a lot of searching and 
 
   - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max) - [Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max), [window.location.assign()](https://developer.mozilla.org/en-US/docs/Web/API/Location/assign), [window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join), [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt), [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-  - Youtube Videos
-
-    - [James Q Quick's Quiz App video](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1ti
-
   - [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
 
 - User Experience
 
-  - [How To Define Your Target Audience in 6 Quick Questions](https://exposureninja.com/blog/define-your-target-audience/)
+  - [How To find your Target audience..Adam Erhart..](https://youtu.be/FzEkHlYt2uA/)
 
   - [How to write a good user story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#.YFM57o-2eQY.linkedin)
 
@@ -318,9 +282,8 @@ Throughout the process of doing this project I have done a lot of searching and 
 
 - Images
 
-  - Front page background image is downloaded from [unsplash](https://unsplash.com/).
-
-  - The end page images is downloaded from [icons8](https://icons8.com/).
+  - The main image for the quiz is the Qeustion an the multible choice of answers.
+  - Also there is a submit button to press once youve made your choice.
 
 
 ### **Acknowledgements**
