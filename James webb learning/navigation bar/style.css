@@ -14,8 +14,8 @@ nav{
 .logo{
     color: aliceblue;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+    letter-spacing: 6px;
+    font-size: 23px;
 }
 .nav-links{
     display: flex;
@@ -28,4 +28,7 @@ nav{
 .nav-links a{
     color: aliceblue;
     text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
 }
