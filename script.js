@@ -1,6 +1,6 @@
 const quizDB = [
      {
-         question: "Q1: What is the full form of HTML?",
+         question: "What is the full form of HTML?",
          a: "Hello to my land",
          b: "Hey text markup language",
          c: "Hypertext markup language",
@@ -9,7 +9,7 @@ const quizDB = [
 
      },
      {
-        question: "Q2: What is the full form of CSS?",
+        question: "What is the full form of CSS?",
         a: "Cascading Style sheets",
         b: "Cascading Style sheeps",
         c: "Cascading Super sheets",
@@ -17,7 +17,7 @@ const quizDB = [
         ans: "ans1"
      },
      {
-        question: "Q3: What is the full form of HTTP?",
+        question: "What is the full form of HTTP?",
         a: "Hypertext transfer prototype",
         b: "Hypertext transfer product",
         c: "Hey Transfer Protocol",
@@ -25,7 +25,7 @@ const quizDB = [
         ans: "ans4"
      },
      {
-        question: "Q4: What is the full form of JS?",
+        question: "What is the full form of JS?",
         a: "Javascript",
         b: "Javasuper",
         c: "JustScript",
@@ -33,7 +33,7 @@ const quizDB = [
         ans: "ans1"
      },
      {
-        question: "Q5: HTML is what type of language ?",
+        question: "HTML is what type of language ?",
         a: "Scripting Language",
         b: "Markup Language",
         c: "Programming Language",
@@ -41,7 +41,7 @@ const quizDB = [
         ans: "ans2"
      },
      {
-         question: "Q6:HTML uses",
+         question: "HTML uses",
          a: "User defined Tags",
          b: "Pre-specified tags",
          c:"Fixed tags defined by the language",
@@ -49,7 +49,7 @@ const quizDB = [
          ans: "ans3"
      }, 
      {
-        question: "Q7:What should be the first tag in any HTML document?",
+        question: "What should be the first tag in any HTML document?",
         a: "<head>",
         b: "<title>",
         c:"<html>",
@@ -57,7 +57,7 @@ const quizDB = [
         ans: "ans3"
     }, 
     {
-        question: "Q8:Fundamental HTML Block is known as",
+        question: "Fundamental HTML Block is known as",
         a: "HTML body",
         b: "HTML Tag",
         c:"HTML Attribute",
@@ -65,7 +65,7 @@ const quizDB = [
         ans: "ans2"
     },
     {
-        question: "Q9:How can you make a bulleted list with numbers?",
+        question: "How can you make a bulleted list with numbers?",
         a: "<dl>",
         b: "<ol>",
         c:"<list>",
@@ -73,7 +73,7 @@ const quizDB = [
         ans: "ans2"
     },  
     {
-        question: "Q10:What tag is used to display a picture in a HTML page?",
+        question: "What tag is used to display a picture in a HTML page?",
         a: "picture",
         b: "image",
         c:"img",
@@ -83,6 +83,13 @@ const quizDB = [
 
  ]; 
 
+//  Play start
+const playBtn = document.querySelector('.start_btn')
+playBtn.addEventListener('click', (e)=>{
+    document.querySelector('.home_screen').style.display = 'none'
+    document.querySelector('.inner-div').style.display = 'block'
+})
+// ***
  const question = document.querySelector(".question");
  const option1 =document.querySelector("#option1");
  const option2 =document.querySelector("#option2");
@@ -102,20 +109,21 @@ const quizDB = [
  let questionCount = 0;
  let score = 0;
 
+ const shuffleQuizDb = ()=>{
+    quizDB.sort((a,b)=> 0.5 - Math.random())
+ }
+
+// Randomize quizs
+ shuffleQuizDb()
+
  const loadquestion = () => {
      const questionList = quizDB[questionCount];
-    question.innerText = questionList.question;
+    question.innerText = `Q${questionCount+1}: `+ questionList.question;
 
     option1.innerText = questionList.a;
     option2.innerText = questionList.b;
     option3.innerText = questionList.c;
     option4.innerText = questionList.d;
- 
-
-
-
-
-
  }
 
  loadquestion();
@@ -135,8 +143,6 @@ const quizDB = [
 
      const deselectAll = () => {
          answers.forEach((curAnsElem) => curAnsElem.checked = false)
-
-
      }
 
  
@@ -162,12 +168,9 @@ if(questionCount < quizDB.length){
     
     `;
     Showscore.classList.remove("scorearea");
-    
-    
-
-
 }
 
 
 
  } );
+
