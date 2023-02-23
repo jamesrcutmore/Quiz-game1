@@ -1,4 +1,4 @@
-const quizDB = [{
+let quizDB = [{
         question: "What is the full form of HTML?",
         a: "Hello to my land",
         b: "Hey text markup language",
@@ -107,12 +107,12 @@ const showscore = document.querySelector("#showscore");
 let questionCount = 0;
 let score = 0;
 
-const shuffleQuizDb = () => {
-    quizDB.sort((a, b) => 0.5 - Math.random())
+const shuffleQuizDb = (arr) => {
+    return arr.sort((a, b) => 0.5 - Math.random())
 }
 
 // Randomize quizs
-shuffleQuizDb()
+// shuffleQuizDb()
 
 const loadquestion = () => {
     const questionList = quizDB[questionCount];
@@ -165,3 +165,44 @@ submit.addEventListener('click', () => {
         document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}`
     }
 });
+
+function getQuestions() {
+    fetch('https://the-trivia-api.com/api/questions?limit=20&categories=science,history', {
+            headers: {
+                'Content-Type': "application/json"
+            }
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            let sortedData = data.map((q) => {
+                let obj = {}
+                let ansCount = 0
+                let abcd = ['a', 'b', 'c', 'd']
+                q.incorrectAnswers.push(q.correctAnswer)
+                let answers = shuffleQuizDb(q.incorrectAnswers)
+
+                answers.forEach(i => {
+                    obj[abcd[ansCount]] = i
+
+                    if (i === q.correctAnswer) {
+                        obj.ans = `ans${ansCount+1}`
+                    }
+
+                    ansCount++
+                })
+                return {
+                    question: q.question,
+                    ...obj
+                }
+            })
+            quizDB = sortedData
+            console.log(sortedData);
+        })
+        .catch((err) => {
+            console.log(err);
+        })
+}
+
+window.onload = () => {
+    getQuestions()
+}
