@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <nav>
+        <a href="index.html">Play</a>
+        <a href="scoreboard.html">leaderboard</a>
+    </nav>
     <div class="main-div">
         <div class="home_screen">
             <!-- <h1>Welcome to quiz Game</h1> -->
@@ -38,7 +42,15 @@
 
             </ul>
             <button id="submit"> submit </button>
-            <div id="Showscore" class="scorearea"> </div>
+        </div>
+        <div id="showscore">
+            <h2 class="scores">81</h2>
+            <button class= "btn" onclick= "location.reload()"> Play Again! </button>
+            <div class="save_scores">
+                <h2>Save your scores</h2>
+                <input type="text" placeholder="name" id="name">
+                <button id="save_to_scores_btn">save</button>
+            </div>
         </div>
         <script src="script.js"></script>
 </body>

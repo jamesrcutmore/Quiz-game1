@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
     /* font-weight: 300; */
 }
+
 html {
     font-size: 62.5;
 }
-.main-div{
+
+body {
+    background-color: hsl(206, 92%, 94%);
+}
+
+.main-div {
     width: 100%;
     min-height: 100vh;
     display: grid;
-    place-items: center; 
-    background-color:hsl(206,92%,94%);
+    place-items: center;
+    background-color: hsl(206, 92%, 94%);
 
-} 
+}
 
 /* *** */
-.home_screen{
+.home_screen {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -30,12 +37,17 @@ html {
     gap: 25px;
 }
 
-.home_screen img{
+.home_screen img {
     width: 80%;
     height: 500px;
 }
 
-.start_btn{
+/* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+} */
+.start_btn {
     padding: 10px 35px;
     border-radius: 5px;
     font-size: 22px;
@@ -45,11 +57,29 @@ html {
     cursor: pointer;
 }
 
-.start_btn:hover{
+.start_btn:hover {
     font-size: 25px;
 }
+
 /*  */
-.inner-div{
+
+/* Nav */
+nav {
+    background-color: #0984e3;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 22px;
+    padding: 5px 15px;
+}
+
+/* Nav End */
+.inner-div {
     width: fit-content;
     background-color: #fff;
     padding: 3rem 5rem;
@@ -57,24 +87,29 @@ html {
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
     display: none;
 }
-.inner-div h2{
+
+.inner-div h2 {
     font-size: 2.4rem;
     font-weight: 400;
     margin-top: 1 rem 0 4rem 0;
 
 
 }
-.inner-div li{
+
+.inner-div li {
     font-size: 1.5rem;
     margin-top: 1.5rem;
     list-style: none;
 
 }
-input{
+
+input {
     cursor: pointer;
 
 }
-#submit, .btn{
+
+#submit,
+.btn {
     padding: 1rem 2rem;
     outline: none;
     font-size: 1.5rem;
@@ -93,44 +128,75 @@ input{
     background-color: #0984e3;
 }
 
-#ShowScore{
+#showscore {
     background-color: #dfe6e9;
     margin-top: 3rem;
     padding: 3rem 4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
-
-
+    display: none;
 }
-#Showscore h3{
+
+#showscore h3 {
     font-size: 2rem;
     text-align: center;
 }
 
-#Showscore .btn{
+#showscore .btn {
     margin-top: 2rem;
     background-color: #55efc4;
     color: #2d3436;
 }
-#Showscore .btn:hover{
-   background-color: #00b894;
-    color: #fff; 
+
+#showscore .btn:hover {
+    background-color: #00b894;
+    color: #fff;
 }
-.scorearea{
+
+.scorearea {
     display: none;
 }
 
 
+
+
+/* score page */
+.page_title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#scores_list {
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#scores_list li {
+    margin-bottom: 5px;
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#scores_list li:nth-child(even) {
+    background-color: #fff;
+}
+
 @media only screen and (max-width: 678px) {
-    .inner-div{
+    .inner-div {
         width: 98%;
         padding: 1.5rem 2rem;
     }
 }
+
 @media only screen and (max-width: 500px) {
-    .home_screen{
+    .home_screen {
         padding-top: 0;
     }
-    .home_screen img{
+
+    .home_screen img {
         width: 100%;
     }
 }
