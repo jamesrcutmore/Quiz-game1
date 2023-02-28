@@ -160,6 +160,9 @@ input {
 
 
 /* score page */
+#show_scoreborad{
+    display: none;
+}
 .page_title {
     text-align: center;
     margin-top: 50px;
