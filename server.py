@@ -19,29 +19,34 @@ while True:
     print(request)
 
     # Parse HTTP headers
-    headers = request.split('\n')
-    filename = headers[0].split()[1]
+    # headers = request.split('\n')
+    # filename = headers[0].split()[1]
 
     # Get file content
-    if filename == '/':
-        filename = 'index.html'
+    # if filename == '/':
+    #     filename = 'index.html'
 
-    if filename == '/scoreboard.html':
-        filename = 'scoreboard.html'
+    # if filename == '/scoreboard.html':
+    #     filename = 'scoreboard.html'
 
     # get index.html
-    try:
-        fin = open(filename)
-        content = fin.read()
-        fin.close()
+    # try:
+    #     fin = open(filename)
+    #     content = fin.read()
+    #     fin.close()
 
-        response = 'HTTP/1.0 200 OK\n\n' + content
-    except FileNotFoundError:
-        fin = open('404.html')
-        content = fin.read()
-        fin.close()
-        response = 'HTTP/1.0 200 OK\n\n' + content
+    #     response = 'HTTP/1.0 200 OK\n\n' + content
+    # except FileNotFoundError:
+    #     fin = open('404.html')
+    #     content = fin.read()
+    #     fin.close()
+    #     response = 'HTTP/1.0 200 OK\n\n' + content
 
+    
+    fin = open('index.index.html')
+    content = fin.read()
+    fin.close()
+    response = 'HTTP/1.0 200 OK\n\n' + content
     client_connection.sendall(response.encode())
     client_connection.close()
 

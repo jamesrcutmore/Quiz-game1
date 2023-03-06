@@ -146,17 +146,18 @@ function loadScoreboard() {
 }
 
 const showscoreBtn = document.querySelector('#scoreboard')
-const showPlayeBtn = document.querySelector('#show_play')
+const showInstuctionsBtn = document.querySelector('#show_instuctions')
 showscoreBtn.addEventListener('click', ()=>{
     document.querySelector('.main-div').style.display = 'none';
     document.querySelector('#show_scoreborad').style.display = 'block';
     loadScoreboard()
 })
 
-showPlayeBtn.addEventListener('click', ()=>{
-    document.querySelector('.main-div').style.display = 'block';
-    document.querySelector('#show_scoreborad').style.display = 'none';
-    loadScoreboard()
+showInstuctionsBtn.addEventListener('click', ()=>{
+    console.log('instructionsa');
+    document.querySelector('#instructions').style.display = 'flex';
+    // document.querySelector('#show_scoreborad').style.display = 'none';
+    // loadScoreboard()
 })
 
 window.onload = () => {
