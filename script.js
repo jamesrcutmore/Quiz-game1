@@ -150,6 +150,7 @@ const showInstuctionsBtn = document.querySelector('#show_instuctions')
 showscoreBtn.addEventListener('click', ()=>{
     document.querySelector('.main-div').style.display = 'none';
     document.querySelector('#show_scoreborad').style.display = 'block';
+    document.querySelector('#home').style.display = 'inline-block';
     loadScoreboard()
 })
 

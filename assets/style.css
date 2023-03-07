@@ -72,11 +72,24 @@ nav {
     padding: 10px;
 }
 
-nav a {
+nav button {
     color: white;
     font-size: 22px;
     padding: 5px 15px;
+    background-color: #00b894;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+    transition: all .3s ease-in;
 }
+
+ nav button:hover {
+    font-size: 24px;
+ }
+ #home {
+    display: none;
+ }
+
 
 /* Nav End */
 .inner-div {
@@ -162,6 +175,7 @@ input {
 /* score page */
 #show_scoreborad{
     display: none;
+    min-height: 70vh;
 }
 .page_title {
     text-align: center;
@@ -208,6 +222,20 @@ input {
     color: black;
     padding: 15px 10px;
     font-size: 23px;
+}
+
+footer {
+    background-color: #00b894;
+    height: 100px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 25px;
+    
 }
 
 @media only screen and (max-width: 678px) {
