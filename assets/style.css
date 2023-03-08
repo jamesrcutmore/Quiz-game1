@@ -215,12 +215,24 @@ input {
     align-items: center;
     justify-content: center;
 }
+#instructions div{
+    width: 50%;
+    background-color: white;
+    position: relative;
+    padding: 15px 10px;
+}
+ #instructions h1{
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 15px; 
+ }
+ #instructions button {
+    font-size: 25px;
+    padding: 5px;
+ }
 
 #instructions p{
-    width: 40%;
-    background-color: white;
     color: black;
-    padding: 15px 10px;
     font-size: 23px;
 }
 

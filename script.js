@@ -153,6 +153,14 @@ showscoreBtn.addEventListener('click', ()=>{
     document.querySelector('#home').style.display = 'inline-block';
     loadScoreboard()
 })
+ const homebtn = document.querySelector('#home')
+ homebtn.addEventListener('click',()=>{
+    document.querySelector('.main-div').style.display = 'block';
+    document.querySelector('#show_scoreborad').style.display = 'none';
+    document.querySelector('#home').style.display = 'none'; 
+ })
+
+
 
 showInstuctionsBtn.addEventListener('click', ()=>{
     console.log('instructionsa');
