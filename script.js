@@ -1,5 +1,8 @@
 let quizDB = [];
-const scoreboard = [{name: 'gamer1', score: 89}]
+const scoreboard = [{
+    name: 'gamer1',
+    score: 89
+}]
 
 
 //  Play start
@@ -125,48 +128,57 @@ function getQuestions() {
         })
 }
 
-function saveScores(){
+function saveScores() {
     const name = document.querySelector('#name').value
-    scoreboard.push({name, score})
-    score=0;
+    scoreboard.push({
+        name,
+        score
+    })
+    score = 0;
 }
 const saveBtn = document.querySelector('#save_to_scores_btn')
-saveBtn.addEventListener('click', ()=>{
+saveBtn.addEventListener('click', () => {
     saveScores()
 })
 
 function loadScoreboard() {
     const scoreList = document.querySelector('#scores_list')
-    let playerscores=''
-    scoreboard.forEach((s)=>{
+    let playerscores = ''
+    scoreboard.forEach((s) => {
         playerscores += `<li><span>${s.name} </span> <span>${s.score}</span></li>`
     })
 
-    scoreList.innerHTML= playerscores;
+    scoreList.innerHTML = playerscores;
 }
 
 const showscoreBtn = document.querySelector('#scoreboard')
 const showInstuctionsBtn = document.querySelector('#show_instuctions')
-showscoreBtn.addEventListener('click', ()=>{
+showscoreBtn.addEventListener('click', () => {
     document.querySelector('.main-div').style.display = 'none';
     document.querySelector('#show_scoreborad').style.display = 'block';
     document.querySelector('#home').style.display = 'inline-block';
     loadScoreboard()
 })
- const homebtn = document.querySelector('#home')
- homebtn.addEventListener('click',()=>{
+const homebtn = document.querySelector('#home')
+homebtn.addEventListener('click', () => {
     document.querySelector('.main-div').style.display = 'block';
     document.querySelector('#show_scoreborad').style.display = 'none';
-    document.querySelector('#home').style.display = 'none'; 
- })
+    document.querySelector('#home').style.display = 'none';
+})
 
 
 
-showInstuctionsBtn.addEventListener('click', ()=>{
-    console.log('instructionsa');
+showInstuctionsBtn.addEventListener('click', () => {
+    // console.log('instructionsa');
     document.querySelector('#instructions').style.display = 'flex';
     // document.querySelector('#show_scoreborad').style.display = 'none';
     // loadScoreboard()
+})
+
+const closebtn = document.querySelector('#close')
+
+closebtn.addEventListener('click', () => {
+    document.querySelector('#instructions').style.display = 'none';
 })
 
 window.onload = () => {
