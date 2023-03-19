@@ -281,4 +281,14 @@ footer p {
     nav button:hover{
         font-size: 17px;
     }
-}
+
+    #home button{
+        color: white;
+        font-size: 22px;
+        padding: 5px 15px;
+        background-color: #00b894;
+        border-radius: 5px;
+        box-shadow: 2px 2px black;
+        cursor: pointer;
+        transition: all .3s ease-in;
+    }
