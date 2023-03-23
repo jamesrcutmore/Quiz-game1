@@ -4,13 +4,38 @@ const scoreboard = [{
     score: 89
 }]
 
+let timer = 0;
 
+const timerEl = document.getElementById('timer')
+function updateTimer() {
+    timer--
+    if (timer <0) {
+        // Stop game
+        return
+    }
+    timerEl.innerHTML= `Timer: ${timer}`
+}
+
+function startTimer(time=1) {
+    timer=time
+    let timerId = setInterval(() => {
+        updateTimer()
+    }, 1000);
+    
+    setTimeout(() => {
+        clearInterval(timerId)
+        // Stop Game
+        const ans = confirm("TIME'S UP, Save score")
+        final()
+    }, time * 1000 +1);    
+}
 //  Play start
 const playBtn = document.querySelector('.start_btn')
 
 playBtn.addEventListener('click', (e) => {
     document.querySelector('.home_screen').style.display = 'none'
     document.querySelector('.inner-div').style.display = 'block'
+    startTimer(30)
 })
 // ***
 const question = document.querySelector(".question");
@@ -85,9 +110,7 @@ submit.addEventListener('click', () => {
     if (questionCount < quizDB.length) {
         loadquestion();
     } else {
-        document.querySelector('.inner-div').style.display = 'none'
-        document.querySelector('#showscore').style.display = 'block'
-        document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}`
+        final()
     }
 });
 
@@ -126,6 +149,12 @@ function getQuestions() {
         .catch((err) => {
             console.log(err);
         })
+}
+
+function final() {
+    document.querySelector('.inner-div').style.display = 'none'
+    document.querySelector('#showscore').style.display = 'block'
+    document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}` 
 }
 
 function saveScores() {

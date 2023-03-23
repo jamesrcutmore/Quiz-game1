@@ -90,6 +90,13 @@ nav button {
     display: none;
  }
 
+ #timer{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    font-size: 25px;
+    color: white;
+ }
 
 /* Nav End */
 .inner-div {
