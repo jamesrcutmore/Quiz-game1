@@ -1,7 +1,7 @@
 #                                  **Quiz-game1**
 # Interactive Front-End Development Project using HTML,CSS and Javascript
 
-![Am I Responsive image of quiz game](assets/quizscreenshot.jpg)
+![Am I Responsive image of quiz game](assets/quizimage.png)
 #                                      James cutmore Quiz-game1-2022-MS2
 A live website can be found [here](https://jamesrcutmore/Quiz-game1 - main//)
 ## **Table of Contents**
