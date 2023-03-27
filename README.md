@@ -44,17 +44,19 @@ This Quiz is designed to include a wide range of randomised questions , all base
 
 - This quiz is aimed at any age bracket or audience.
 
-- With todays online markets growing, and the world of internet ever exspanding.They will be a greater demand for web developers so lets have a quiz about this subject and encourage people to study this subject.
+- The quiz is aimed at anybody who likes to test there science knowledge.
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
 ### **Uers Stories**
 
 - **General User Goals**
-
-  - As a Quiz lover, I want to find quiz related activities, so that it broadens my knowledge and understanding.
-
-  - As an inquisitive person, I want to find a quiz, so that I can have fun and learn with.
+  - I want to be able to easily navigate through the site.
+  - I want to find quiz related activities, so that it 
+    broadens my knowledge and understanding.
+  - I want o be able to test my knowledge
+  - I want to find a quiz, so that I can have fun and 
+    learn with.
 
   - As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
 
@@ -70,17 +72,18 @@ This Quiz is designed to include a wide range of randomised questions , all base
 
   - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
 
-  - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try.
+  - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try,and easily return to the home page.
 
   - As a First Time Visitor, I want to know about the developer and their social media links.
 
 - **Returning Visitor Goals**
 
-  - As a Returning Visitor, I want to see my score at he end so i can progress.
+  - As a Returning Visitor, I want to see my score at the end so i can progress.
 
   - As a Returning Visitor, I want to see if i can beat my previous score.
+  - As a returning visitor i want to know that the site is easy to navigate.
 
-### **Design**
+#### **Design**
 
 - **Colour Scheme** 
 
