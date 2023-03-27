@@ -6,9 +6,9 @@
 A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ## **Table of Contents**
 
-- [About](#About)
-- [Users Experience(UX)](<#users-experience(ux)>)
-  - [Project Goals](#project-goals)
+ + [About](#About)
+ +[Users Experience(UX)](<#users-experience(ux)>)
+  + [Project Goals](#project-goals)
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
   - [Design](#design)
@@ -36,86 +36,86 @@ This Quiz is designed to include a wide range of randomised questions , all base
 
 ### **Project Goals**
 
-- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their knowledge in HTML&CSS.
+ The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their science knowledge
 
-- The secondary goal is to help the user get their thinking mind on,improve short-term memory and sharpen their knowledge of the subject.
+ The secondary goal is to help the user get their thinking mind on,improve short-term memory and sharpen their knowledge of general science.
 
 ### **Target Audience**
 
-- This quiz is aimed at any age bracket or audience.
+This quiz is aimed at any age bracket or audience.
 
-- The quiz is aimed at anybody who likes to test there science knowledge.
+The quiz is aimed at anybody who likes to test there science knowledge.
 
-- The best way to promote our quiz game is through online advertisements and social media shares.
+The best way to promote our quiz game is through online advertisements and social media shares.
 
 ### **Uers Stories**
 
-- **General User Goals**
-  - I want to be able to easily navigate through the site.
-  - I want to find quiz related activities, so that it 
-    broadens my knowledge and understanding.
-  - I want o be able to test my knowledge
-  - I want to find a quiz, so that I can have fun and 
-    learn with.
++ **General User Goals**
+ I want to be able to easily navigate through the site.
+ I want to find quiz related activities, so that it 
+ broadens my knowledge and understanding.
+ I want o be able to test my knowledge
+ I want to find a quiz, so that I can have fun and 
+ learn with.
 
-  - As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
+  As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
 
-  - As a learner , I want to learn through games, so that I can gain knowledge and idea's.
+  As a learner , I want to learn through games, so that I can gain knowledge and idea's.
 
-  - As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
+  As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
 
-  - As a Quiz competitor, I want to beat my last score ,when it is shown at the end.
+  As a Quiz competitor, I want to beat my last score ,when it is shown at the end.
 
-  - As a I-phone user, I want an app that is easy to use and is mobile friendly, so that I can use it on my mobile.
+  As a I-phone user, I want an app that is easy to use and is mobile friendly, so that I can use it on my mobile.
 
-- **First Time Visitor Goals**
++ **First Time Visitor Goals**
 
-  - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
+  As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
 
-  - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try,and easily return to the home page.
+  As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try,and easily return to the home page.
 
-  - As a First Time Visitor, I want to know about the developer and their social media links.
+  As a First Time Visitor, I want to know about the developer and their social media links.
 
-- **Returning Visitor Goals**
++ **Returning Visitor Goals**
 
-  - As a Returning Visitor, I want to see my score at the end so i can progress.
+  As a Returning Visitor, I want to see my score at the end so i can progress.
 
-  - As a Returning Visitor, I want to see if i can beat my previous score.
-  - As a returning visitor i want to know that the site is easy to navigate.
+   As a Returning Visitor, I want to see if i can beat my previous score.
+   As a returning visitor i want to know that the site is easy to navigate.
 
 #### **Design**
 
-- **Colour Scheme** 
++ **Colour Scheme** 
 
-  - background-color:hsl 206,92%,94%
+   background-color:hsl 206,92%,94%
 
-  - Inner-div- background-color: #fff
+   Inner-div- background-color: #fff
 
-  - box-shadow:  rgba 0, 0, 0, 0.4 
+   box-shadow:  rgba 0, 0, 0, 0.4 
 
-  - Submit. Buttoncolor: #fff
+   Submit. Buttoncolor: #fff
 
-  _ Hover-over Submit button: background-color: #0984e3
+   Hover-over Submit button: background-color: #0984e3
 
-  - Show score button and background-color: #55efc4;
+   Show score button and background-color: #55efc4;
     color: #2d3436
 
-  -Show score button and hover over: background-color: #00b894;
+  Show score button and hover over: background-color: #00b894;
     color: #fff; 
 
 
 
-- **Typography**
++ **Typography**
 
-  - The main font throughout the quiz is Josefin Sans with a back up font of sans-serif.Here we used google fonts.
-  - [Google Fonts](https://fonts.google.com/)
+  The main font throughout the quiz is Josefin Sans with a back up font of sans-serif.Here we used google fonts.
+  [Google Fonts](https://fonts.google.com/)
 
-- **Imagery**
++ **Imagery**
 
-  - The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
+   The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
 
-  - The submit button has a hover over contrasting colour effect.
-### **Wireframes**
+   The submit button has a hover over contrasting colour effect.
++### **Wireframes**
 
 ![Desktop wireframe](assets/ms2quizgamedesktop.jpg)
 
@@ -127,19 +127,19 @@ This Quiz is designed to include a wide range of randomised questions , all base
 
 ### **Existing Features**
 
-- Homepage jumps straight inio the first question. 
+Homepage jumps straight inio the first question. 
 
-- The fisrt question is visable at the top of the page.
+The fisrt question is visable at the top of the page.
 
-- Radio buttons can be clicked to choose an answer.
+Radio buttons can be clicked to choose an answer.
 
-- Multiple-choice section - gives the users four choices they can choose from.
+Multiple-choice section - gives the users four choices they can choose from.
 
-- Once you've made all 10 choices a submit button should be pressed.
+Once you've made all 10 choices a submit button should be pressed.
 
-- once the game is finished it will shows the final score.
+once the game is finished it will shows the final score.
 
-- A try again button will then be presented
+ A try again button will then be presented
 
 ### **Features Left to Implement**
 
@@ -150,60 +150,60 @@ This Quiz is designed to include a wide range of randomised questions , all base
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
 
-  - The language used to give the site its main structure and all necessary features.
+The language used to give the site its main structure and all necessary features.
 
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
+[CSS3](https://en.wikipedia.org/wiki/CSS)
 
-  - The language used to give the application its visual effects including the font, color and layout etc.
+  The language used to give the application its visual effects including the font, color and layout etc.
 
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-  - The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+  The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
 
 ### Frameworks, Libraries & Programs Used
 
-- [VScode](https://code.visualstudio.com/)
+[VScode](https://code.visualstudio.com/)
 
-  - Visual Studio Code has been used as a local code editor for write and manage all codes and files.
+ Visual Studio Code has been used as a local code editor for write and manage all codes and files.
 
-- [Github](https://github.com/)
+[Github](https://github.com/)
 
-  - Github is used to create, store and maintain all codes in a repository.
+  Github is used to create, store and maintain all codes in a repository.
 
-  - Github is also used as the site hosting service for the final website to be published on.
+  Github is also used as the site hosting service for the final website to be published on.
 
-- [Git Version control](https://git-scm.com/)
+[Git Version control](https://git-scm.com/)
 
-  - Git 2.31.1 for Mac is used for commit and push codes to Github.
+ Git 2.31.1 for Mac is used for commit and push codes to Github.
 
-- [Google Fonts](https://fonts.google.com/)
+[Google Fonts](https://fonts.google.com/)
 
-  - The font used on this quiz were chosen from Google fonts.
+The font used on this quiz were chosen from Google fonts.
 
 
-- [Balsamiq](https://balsamiq.com/)
+[Balsamiq](https://balsamiq.com/)
 
-  - The wireframes were created using Balsamiq.
+  The wireframes were created using Balsamiq.
 
-- [Google DevTools](https://developer.chrome.com/docs/devtools/)
+ [Google DevTools](https://developer.chrome.com/docs/devtools/)
 
-  - Google DevTools was extensively used throughout the project for various styling, testing and debugging purposes.
+   Google DevTools was extensively used throughout the project for various styling, testing and debugging purposes.
 
-- [Am I Responsive](http://ami.responsivedesign.is/)
+ [Am I Responsive](http://ami.responsivedesign.is/)
 
-  - Am I responsive has been used to test the responsiveness of the site and also to create the mock-up image presented at the start of this document.
+   Am I responsive has been used to test the responsiveness of the site and also to create the mock-up image presented at the start of this document.
 
-- [W3C Markup Validation service](https://validator.w3.org/)
+[W3C Markup Validation service](https://validator.w3.org/)
 
-  - W3C Markup Validation Service has been used to test the HTML codes.
+   W3C Markup Validation Service has been used to test the HTML codes.
 
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+ [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
-  - W3C CSS Validation Service has been used to test the CSS codes.
+   W3C CSS Validation Service has been used to test the CSS codes.
 
 ## **Testing**
 
-- Testing was implemented through W3C CSS and mark up validation
+Testing was implemented through W3C CSS and mark up validation
 
 ## **Deployment**
 
@@ -265,40 +265,40 @@ This Quiz is designed to include a wide range of randomised questions , all base
 
 Throughout the process of doing this project I have done a lot of searching and learning. The codes that are copied and pasted have been marked as a comment in the relevant files. All the rest of the codes are written by myself after learning from resources. The resources and the links I used to learn each concepts are the following:
 
-- Codes
+ Codes
 
-  - [w3schools](https://www.w3schools.com/) - [audio](https://www.w3schools.com/html/html5_audio.asp), [javascript modal](https://www.w3schools.com/howto/howto_css_modals.asp), [loader](https://www.w3schools.com/howto/howto_css_loader.asp), [cubic-bezier](https://www.w3schools.com/cssref/func_cubic-bezier.asp), [javascript objects](https://www.w3schools.com/js/js_objects.asp), [setInterval and clearInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp), [setTimeout](https://www.w3schools.com/js/js_timing.asp), [Array splice](https://www.w3schools.com/jsref/jsref_splice.asp), [DOM changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp), [JSON.parse()](https://www.w3schools.com/js/js_json_parse.asp), [Math.floor()](https://www.w3schools.com/jsref/jsref_floor.asp), [CSS background-image](https://www.w3schools.com/cssref/pr_background-image.asp), [CSS box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp), [Array map()](https://www.w3schools.com/jsref/jsref_map.asp)
+   [w3schools](https://www.w3schools.com/) - [audio](https://www.w3schools.com/html/html5_audio.asp), [javascript modal](https://www.w3schools.com/howto/howto_css_modals.asp), [loader](https://www.w3schools.com/howto/howto_css_loader.asp), [cubic-bezier](https://www.w3schools.com/cssref/func_cubic-bezier.asp), [javascript objects](https://www.w3schools.com/js/js_objects.asp), [setInterval and clearInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp), [setTimeout](https://www.w3schools.com/js/js_timing.asp), [Array splice](https://www.w3schools.com/jsref/jsref_splice.asp), [DOM changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp), [JSON.parse()](https://www.w3schools.com/js/js_json_parse.asp), [Math.floor()](https://www.w3schools.com/jsref/jsref_floor.asp), [CSS background-image](https://www.w3schools.com/cssref/pr_background-image.asp), [CSS box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp), [Array map()](https://www.w3schools.com/jsref/jsref_map.asp)
 
-  - [stackoverflow](https://stackoverflow.com/) - [display options randomly](https://stackoverflow.com/questions/53362187/javascript-quiz-display-random-options), [difference between innerText and innerHTML](https://stackoverflow.com/questions/19030742/difference-between-innertext-innerhtml-and-value), [convert an object key value into an array](https://stackoverflow.com/questions/38824349/how-to-convert-an-object-to-an-array-of-key-value-pairs-in-javascript)
+   [stackoverflow](https://stackoverflow.com/) - [display options randomly](https://stackoverflow.com/questions/53362187/javascript-quiz-display-random-options), [difference between innerText and innerHTML](https://stackoverflow.com/questions/19030742/difference-between-innertext-innerhtml-and-value), [convert an object key value into an array](https://stackoverflow.com/questions/38824349/how-to-convert-an-object-to-an-array-of-key-value-pairs-in-javascript)
 
-  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max) - [Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max), [window.location.assign()](https://developer.mozilla.org/en-US/docs/Web/API/Location/assign), [window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join), [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt), [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max) - [Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max), [window.location.assign()](https://developer.mozilla.org/en-US/docs/Web/API/Location/assign), [window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join), [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt), [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-  - [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
+   [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
 
-- User Experience
+ User Experience
 
-  - [How To find your Target audience..Adam Erhart..](https://youtu.be/FzEkHlYt2uA/)
+   [How To find your Target audience..Adam Erhart..](https://youtu.be/FzEkHlYt2uA/)
 
-  - [How to write a good user story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#.YFM57o-2eQY.linkedin)
+   [How to write a good user story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#.YFM57o-2eQY.linkedin)
 
 ### **Media**
 
-- Images
+ Images
 
-  - The main image for the quiz is the Qeustion an the multible choice of answers.
-  - Also there is a submit button to press once youve made your choice.
+   The main image for the quiz is the Qeustion an the multible choice of answers.
+   Also there is a submit button to press once youve made your choice.
 
 
 ### **Acknowledgements**
 
 I would like to thank:
 
-- My mentor Antonio Rodriguez for his encouragement and patience when my frustration kicked in at the start of this project. Thanks to his guidence and tips, I have gotten over the dip and made it to the end.
+My mentor Antonio Rodriguez for his encouragement and patience when my frustration kicked in at the start of this project. Thanks to his guidence and tips, I have gotten over the dip and made it to the end.
 
-- Help and support from fellow students in the Slack community.
+Help and support from fellow students in the Slack community.
 
-- Tutor support and student care team.
+Tutor support and student care team.
 
-- My wife Lyndsay cutmore support and help with testing and encouragement.
+ My wife Lyndsay cutmore support and help with testing and encouragement.
 
 Should you have any queries please reach me on rob_cutmore@hotmail.com
