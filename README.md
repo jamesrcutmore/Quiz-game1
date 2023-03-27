@@ -3,7 +3,7 @@
 
 ![Am I Responsive image of quiz game](assets/screenshot-quiz.png)
 #                                      James cutmore Quiz-game1-2023-MS2
-A live website can be found [here](https://https://github.com/jamesrcutmore/Quiz-game1/blob/main/README.md//)
+A live website can be found [here](https://github.com/jamesrcutmore/Quiz-game1/blob/main/README.md//)
 ## **Table of Contents**
 
 - [About](#About)
