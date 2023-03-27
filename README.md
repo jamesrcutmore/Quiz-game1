@@ -148,7 +148,7 @@ once the game is finished it will shows the final score.
 
 ### Languages Used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
+ [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
 
 The language used to give the site its main structure and all necessary features.
 
