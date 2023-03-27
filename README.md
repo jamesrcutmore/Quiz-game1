@@ -26,11 +26,11 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 ## **About**
 
-Everyone loves a quiz?! They fun way to fill your spare time and keep you and your family entertained!
+Everyone loves a quiz?! The fun way to fill your spare time and keep you and your family entertained!
 
-This quiz in perticular is based on the web development, how much do you really know? Take a little time complete the quiz, and you will find out!
+This quiz in perticular is based on the scinece, how much do you really know? Take a little time complete the quiz, and you will find out!
 
-This Quiz is designed to include a wide range of randomised questions about all types of web development basics. So by building the site and my read.me ive renforced my knowledge, and you can too, each game has 10 random questions, At the end , you will get your score and the chance to try again.. Have fun!
+This Quiz is designed to include a wide range of randomised questions , all based on scinece , At the end , you will get the chance to save you score on the leadrboard and try again.. Have fun!
 
 ## **Users Experience (UX)**
 
