@@ -6,31 +6,30 @@
 A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ## **Table of Contents**
 
- + [About](#About)
- +[Users Experience(UX)](<#users-experience(ux)>)
+  + [About](#About)
+  [Users Experience(UX)](<#users-experience(ux)>)
   + [Project Goals](#project-goals)
-  - [Target Audience](#target-audience)
-  - [User Stories](#user-stories)
-  - [Design](#design)
-  - [Wireframe](images/2022-09-18%20(2).jpg)
-- [Features](#Features)
-  - [Existing Features](#existing-features)
-  - [Features Left to Implement](#features-left-to-implement)
-- [Technologies-Used](#Technologies-Used)
-- [Testing](#Testing)
-- [Deployment](#Deployment)
-- [Credit](#Credit)
-  - [Content](#content)
-  - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
+  + [Target Audience](#target-audience)
+  + [User Stories](#user-stories)
+  + [Design](#design)
+  + [Wireframe](images/2022-09-18%20(2).jpg)
+  + [Features](#Features)
+  + [Existing Features](#existing-features)
+  + [Features Left to Implement](#features-left-to-implement)
+  + [Technologies-Used](#Technologies-Used)
+  + [Testing](#Testing)
+  + [Deployment](#Deployment)
+  +[Credit](#Credit)
+  + [Content](#content)
+  + [Media](#media)
+  + [Acknowledgements](#acknowledgements)
 
-## **About**
+  # **About** 
++ Everyone loves a quiz?! The fun way to fill your spare time and keep you and your family entertained!
 
-Everyone loves a quiz?! The fun way to fill your spare time and keep you and your family entertained!
++ This quiz in perticular is based on the scinece, how much do you really know? Take a little time complete the quiz, and you will find out!
 
-This quiz in perticular is based on the scinece, how much do you really know? Take a little time complete the quiz, and you will find out!
-
-This Quiz is designed to include a wide range of randomised questions , all based on scinece , At the end , you will get the chance to save you score on the leadrboard and try again.. Have fun!
++ This Quiz is designed to include a wide range of randomised questions , all based on science , At the end , you will get the chance to save you score on the leadrboard and try again.. Have fun!
 
 ## **Users Experience (UX)**
 
@@ -48,42 +47,49 @@ The quiz is aimed at anybody who likes to test there science knowledge.
 
 The best way to promote our quiz game is through online advertisements and social media shares.
 
-### **Uers Stories**
+# **Users Stories**
 
-+ **General User Goals**
- I want to be able to easily navigate through the site.
- I want to find quiz related activities, so that it 
- broadens my knowledge and understanding.
- I want o be able to test my knowledge
- I want to find a quiz, so that I can have fun and 
- learn with.
+ **General User Goals**
+ - I want to be able to easily navigate through the 
+   site easily
 
-  As a Quizzer, I want to find interesting games, so that I can spend time, and enjoy enjoying playing them.
+ - I want to find quiz related activities, so that it 
+  broadens my knowledge and understanding.
 
-  As a learner , I want to learn through games, so that I can gain knowledge and idea's.
+ - I want o be able to test my knowledge
 
-  As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
+ - I want to find a quiz, so that I can have fun and 
+   learn with.
 
-  As a Quiz competitor, I want to beat my last score ,when it is shown at the end.
+- As a Quizzer, I want to find interesting games, so 
+  that I can spend time, and enjoy enjoying playing them.
 
-  As a I-phone user, I want an app that is easy to use and is mobile friendly, so that I can use it on my mobile.
+- As a learner , I want to learn through games, so 
+  that I can gain knowledge and idea's.
 
-+ **First Time Visitor Goals**
+- As a person who likes to be challenged, I want to find a challenging Quiz, so that I can test myself.
 
-  As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
+- As a Quiz competitor, I want to beat my last score ,when it is shown at the end.
 
-  As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try,and easily return to the home page.
+- As a I-phone user, I want an app that is easy to use and is mobile friendly, so that I can use it on my mobile.
 
-  As a First Time Visitor, I want to know about the developer and their social media links.
+ # First Time Visitor Goals
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
 
-+ **Returning Visitor Goals**
+- As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try,and easily return to the home page.
 
-  As a Returning Visitor, I want to see my score at the end so i can progress.
+- As a First Time Visitor, I want to know about the developer and their social media links.
 
-   As a Returning Visitor, I want to see if i can beat my previous score.
-   As a returning visitor i want to know that the site is easy to navigate.
+ **Returning Visitor Goals**
 
-#### **Design**
+- As a Returning Visitor, I want to see my score at the end so i can progress.
+
+- As a Returning Visitor, I want to see if i can beat 
+  my previous score.
+
+- As a returning visitor i want to know that the site is easy to navigate.
+
+# **Design**
 
 + **Colour Scheme** 
 
@@ -122,8 +128,10 @@ The best way to promote our quiz game is through online advertisements and socia
 ![Tablet wireframe](assets/ms2quizgametablet.jpg)
 
 ![Mobile wireframe](assets/ms2quizgameiphone.jpg)
+---
+---
 
-## **Features**
+# **Features**
 
 ### **Existing Features**
 
@@ -143,8 +151,10 @@ once the game is finished it will shows the final score.
 
 ### **Features Left to Implement**
 
+---
 
-## **Technologies Used**
+
+# **Technologies Used**
 
 ### Languages Used
 
@@ -159,18 +169,24 @@ The language used to give the site its main structure and all necessary features
  [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
   The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+  ---
+  ---
 
-### Frameworks, Libraries & Programs Used
+
+ # **Frameworks, Libraries & Programs Used**
+
+[API's](https://the-trivia-api.com/)
+The trivia API.com was used for randomized quiz questions
 
 [VScode](https://code.visualstudio.com/)
 
- Visual Studio Code has been used as a local code editor for write and manage all codes and files.
+Visual Studio Code has been used as a local code editor for write and manage all codes and files.
 
 [Github](https://github.com/)
 
-  Github is used to create, store and maintain all codes in a repository.
+Github is used to create, store and maintain all codes in a repository.
 
-  Github is also used as the site hosting service for the final website to be published on.
+Github is also used as the site hosting service for the final website to be published on.
 
 [Git Version control](https://git-scm.com/)
 
@@ -201,11 +217,14 @@ The font used on this quiz were chosen from Google fonts.
 
    W3C CSS Validation Service has been used to test the CSS codes.
 
-## **Testing**
+   ---
+   
+
+# **Testing**
 
 Testing was implemented through W3C CSS and mark up validation
 
-## **Deployment**
+# **Deployment**
 
 ### **Deploy To GitHub Pages**
 
@@ -259,13 +278,13 @@ Testing was implemented through W3C CSS and mark up validation
 
 5. You will have a copy of the original repository in your own GitHub account.
 
-## **Credits**
+# **Credits**
 
 ### **Content**
 
 Throughout the process of doing this project I have done a lot of searching and learning. The codes that are copied and pasted have been marked as a comment in the relevant files. All the rest of the codes are written by myself after learning from resources. The resources and the links I used to learn each concepts are the following:
 
- Codes
+ # Codes
 
    [w3schools](https://www.w3schools.com/) - [audio](https://www.w3schools.com/html/html5_audio.asp), [javascript modal](https://www.w3schools.com/howto/howto_css_modals.asp), [loader](https://www.w3schools.com/howto/howto_css_loader.asp), [cubic-bezier](https://www.w3schools.com/cssref/func_cubic-bezier.asp), [javascript objects](https://www.w3schools.com/js/js_objects.asp), [setInterval and clearInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp), [setTimeout](https://www.w3schools.com/js/js_timing.asp), [Array splice](https://www.w3schools.com/jsref/jsref_splice.asp), [DOM changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp), [JSON.parse()](https://www.w3schools.com/js/js_json_parse.asp), [Math.floor()](https://www.w3schools.com/jsref/jsref_floor.asp), [CSS background-image](https://www.w3schools.com/cssref/pr_background-image.asp), [CSS box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp), [Array map()](https://www.w3schools.com/jsref/jsref_map.asp)
 
