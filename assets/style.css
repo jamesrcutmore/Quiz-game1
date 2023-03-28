@@ -99,6 +99,12 @@ nav button {
     font-size: 25px;
     color: white;
  }
+ /*icons*/
+ .fa-solid fa-gamepad {
+    color: gold;
+    font-size: 30px;
+
+ }
 
 /* Nav End */
 .inner-div {
