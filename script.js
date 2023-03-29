@@ -210,6 +210,19 @@ closebtn.addEventListener('click', () => {
     document.querySelector('#instructions').style.display = 'none';
 })
 
+var audio = document.getElementById("myaudio");
+
 window.onload = () => {
     getQuestions()
+    audio.play()
+}
+
+
+
+function toggleMute() {
+    if (audio.muted) {
+        audio.muted = false;
+    } else {
+        audio.muted = true;
+    }
 }
