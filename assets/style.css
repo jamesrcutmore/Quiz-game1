@@ -88,6 +88,10 @@ nav button {
  nav button:hover {
     font-size: 24px;
  }
+ #myaudio {
+    position: absolute;
+    font-size: 15px;
+ }
  #home {
     display: none;
  }

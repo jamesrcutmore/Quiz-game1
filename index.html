@@ -13,15 +13,18 @@
 </head>
 
 <body>
-    audio loop id="myaudio"
+    <button id="identifier"></button>
+    <audio loop id="myaudio">
         <source
             src="https://cdn.pixabay.com/download/audio/2022/01/14/audio_2e5cc53b67.mp3?filename=atmospheric-14188.mp3 "
             type="audio/mpeg">
         your browser does not support the audio element.
     </audio>
+    
     <nav>
         <button id="show_instuctions"><i class="fa-solid fa-gamepad"></i>Game Rules</button>
         <button id="scoreboard"><i class="fa-solid fa-trophy"></i>leaderboard</button>
+        <button id="identifier" onclick="toggleMute()"><i class="fa-solid fa-music"></i> Mute </button>
         <button id="home"><i class="fa-solid fa-house"></i>Home</button>
 
         <span id="timer">Timer: 0</span>
