@@ -7,27 +7,28 @@ const scoreboard = [{
 let timer = 0;
 
 const timerEl = document.getElementById('timer')
+
 function updateTimer() {
     timer--
-    if (timer <0) {
+    if (timer < 0) {
         // Stop game
         return
     }
-    timerEl.innerHTML= `Timer: ${timer}`
+    timerEl.innerHTML = `Timer: ${timer}`
 }
 
-function startTimer(time=1) {
-    timer=time
+function startTimer(time = 1) {
+    timer = time
     let timerId = setInterval(() => {
         updateTimer()
     }, 1000);
-    
+
     setTimeout(() => {
         clearInterval(timerId)
         // Stop Game
         const ans = confirm("TIME'S UP, Save score")
         final()
-    }, time * 1000 +1);    
+    }, time * 1000 + 1);
 }
 //  Play start
 const playBtn = document.querySelector('.start_btn')
@@ -105,10 +106,21 @@ submit.addEventListener('click', () => {
     };
 
     questionCount++;
-    deselectAll();
+    
 
     if (questionCount < quizDB.length) {
-        loadquestion();
+        if (checkedAnswer) {
+            deselectAll();
+            loadquestion();
+        }
+        else {
+            questionCount--
+            // alert("Please select your answer!")
+            document.querySelector('#instructions').style.display = 'flex';
+            document.querySelector('#instructions p').innerText = 'Please select your answer!';
+            
+        }
+
     } else {
         final()
     }
@@ -154,7 +166,7 @@ function getQuestions() {
 function final() {
     document.querySelector('.inner-div').style.display = 'none'
     document.querySelector('#showscore').style.display = 'block'
-    document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}` 
+    document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}`
 }
 
 function saveScores() {
@@ -199,6 +211,10 @@ homebtn.addEventListener('click', () => {
 
 showInstuctionsBtn.addEventListener('click', () => {
     // console.log('instructionsa');
+    document.querySelector('#instructions p').innerHTML = `
+    <ol>
+    <li>Press play button</li>
+    </ol>`;
     document.querySelector('#instructions').style.display = 'flex';
     // document.querySelector('#show_scoreborad').style.display = 'none';
     // loadScoreboard()
