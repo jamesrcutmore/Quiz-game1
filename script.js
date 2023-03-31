@@ -37,7 +37,7 @@ const playBtn = document.querySelector('.start_btn')
 playBtn.addEventListener('click', (e) => {
     document.querySelector('.home_screen').style.display = 'none'
     document.querySelector('.inner-div').style.display = 'block'
-    startTimer(30)
+    startTimer(60)
     audio.play()
 })
 // ***
