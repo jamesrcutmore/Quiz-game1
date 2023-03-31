@@ -3,7 +3,8 @@ const scoreboard = [{
     name: 'gamer1',
     score: 89
 }]
-
+//audio selector//
+var audio = document.getElementById("myaudio");
 let timer = 0;
 
 const timerEl = document.getElementById('timer')
@@ -37,6 +38,7 @@ playBtn.addEventListener('click', (e) => {
     document.querySelector('.home_screen').style.display = 'none'
     document.querySelector('.inner-div').style.display = 'block'
     startTimer(30)
+    audio.play()
 })
 // ***
 const question = document.querySelector(".question");
@@ -167,6 +169,8 @@ function final() {
     document.querySelector('.inner-div').style.display = 'none'
     document.querySelector('#showscore').style.display = 'block'
     document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}`
+    audio.pause()
+    audio.currentTime = 0
 }
 
 function saveScores() {
@@ -226,11 +230,11 @@ closebtn.addEventListener('click', () => {
     document.querySelector('#instructions').style.display = 'none';
 })
 
-var audio = document.getElementById("myaudio");
+
+
 
 window.onload = () => {
     getQuestions()
-    audio.play()
 }
 
 
@@ -238,7 +242,9 @@ window.onload = () => {
 function toggleMute() {
     if (audio.muted) {
         audio.muted = false;
+        document.querySelector('#identifier span').innerText = 'Mute'
     } else {
         audio.muted = true;
+        document.querySelector('#identifier span').innerText = 'Unmute'
     }
 }
