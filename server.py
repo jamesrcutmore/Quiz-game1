@@ -41,8 +41,6 @@ while True:
     #     content = fin.read()
     #     fin.close()
     #     response = 'HTTP/1.0 200 OK\n\n' + content
-
-    
     fin = open('index.index.html')
     content = fin.read()
     fin.close()
