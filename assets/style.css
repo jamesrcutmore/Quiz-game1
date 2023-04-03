@@ -119,6 +119,11 @@ nav button {
     font-size: 25px;
     margin-right: 10px;
  }
+ .fa-music {
+    color: gold;
+    font-size: 25px;
+    margin-right: 10px;
+ }
 
 /* Nav End */
 .inner-div {
@@ -278,6 +283,23 @@ footer p {
     font-size: 25px;
     
 }
+.fa-square-facebook {
+    margin: 2px;
+    padding: 2px;
+}
+.fa-square-instagram {
+    margin: 2px;
+    padding: 2px;
+}
+.fa-square-pinterest {
+    margin: px;
+    padding: 2px;
+}
+.fa-square-twitter {
+    margin: 2px;
+    padding: 2px;
+}
+
 @media (max-width: 878px){
     nav {
         justify-content: flex-start;
