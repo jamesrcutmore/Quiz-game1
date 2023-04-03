@@ -214,10 +214,13 @@ homebtn.addEventListener('click', () => {
 
 
 showInstuctionsBtn.addEventListener('click', () => {
-    // console.log('instructionsa');
-    document.querySelector('#instructions p').innerHTML = `
+    // console.log('instructions');
+    document.querySelector('#instructions div').innerHTML = `
     <ol>
-    <li>Press play button</li>
+    <li>Press play button to strat game</li>
+    <li>You will have 20 questions to answer ( you must answer a question before moving on to the next)</li>
+    <li>you will have 60 seconds on the timer to answer all questions</li>
+    <li>I you wish you can press the mute button for the sound</li>
     </ol>`;
     document.querySelector('#instructions').style.display = 'flex';
     // document.querySelector('#show_scoreborad').style.display = 'none';
