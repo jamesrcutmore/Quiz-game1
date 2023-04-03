@@ -118,7 +118,7 @@ submit.addEventListener('click', () => {
         else {
             questionCount--
             // alert("Please select your answer!")
-            document.querySelector('#instructions').style.display = 'flex';
+            document.querySelector('#instructions p').style.display = 'flex';
             document.querySelector('#instructions p').innerText = 'Please select your answer!';
             
         }

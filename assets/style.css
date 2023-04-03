@@ -270,7 +270,7 @@ input {
     font-size: 23px;
 }
 
-footer {
+.footer {
     background-color: #00b894;
     height: 100px;
     text-align: center;
