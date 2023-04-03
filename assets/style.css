@@ -285,18 +285,22 @@ footer p {
 }
 .fa-square-facebook {
     margin: 2px;
+    margin-bottom: 6px;
     padding: 2px;
 }
 .fa-square-instagram {
     margin: 2px;
+    margin-bottom: 6px;
     padding: 2px;
 }
 .fa-square-pinterest {
-    margin: px;
+    margin: 2px;
+    margin-bottom: 6px;
     padding: 2px;
 }
 .fa-square-twitter {
     margin: 2px;
+    margin-bottom: 6px;
     padding: 2px;
 }
 
