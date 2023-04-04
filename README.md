@@ -110,8 +110,11 @@ The best way to promote our quiz game is through online advertisements and socia
    The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
    The submit button has a hover over contrasting colour effect.
 
-![Quizgame pallette](assets/quizgame pallete.jpg)
+
    ---
+ # **sitemap**
+
+![sitemap](assets/sitemap.jpg)
    
  # **Wireframe views**
 
