@@ -121,13 +121,13 @@ The best way to promote our quiz game is through online advertisements and socia
    The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
 
    The submit button has a hover over contrasting colour effect.
- ### **Wireframes**
+ ### **Wireframe Desktop view**
 
 ![Desktop wireframe](assets/ms2quizgamedesktop.jpg)
 
-![Tablet wireframe](assets/ms2quizgametablet.jpg)
+![Desktop wireframe](assets/ms2quizgametablet.jpg)
 
-![Mobile wireframe](assets/ms2quizgameiphone.jpg)
+![Desktop wireframe](assets/ms2quizgameiphone.jpg)
 ---
 ---
 
