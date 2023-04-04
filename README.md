@@ -12,7 +12,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
   + [Target Audience](#target-audience)
   + [User Stories](#user-stories)
   + [Design](#design)
-  + [Wireframe](images/2022-09-18%20(2).jpg)
+  + [Wireframe](#wireframe-views)
   + [Features](#Features)
   + [Existing Features](#existing-features)
   + [Features Left to Implement](#features-left-to-implement)
@@ -93,24 +93,13 @@ The best way to promote our quiz game is through online advertisements and socia
 
 + **Colour Scheme** 
 
-   background-color:hsl 206,92%,94%
+     I wanted to keep it colorful and fun!
+  
+     Bright colours so to make it easy and fun to navigate.
 
-   Inner-div- background-color: #fff
+![Coloors Pallete](assets/quizgamepalette.jpg)
 
-   box-shadow:  rgba 0, 0, 0, 0.4 
-
-   Submit. Buttoncolor: #fff
-
-   Hover-over Submit button: background-color: #0984e3
-
-   Show score button and background-color: #55efc4;
-    color: #2d3436
-
-  Show score button and hover over: background-color: #00b894;
-    color: #fff; 
-
-
-
+  
 + **Typography**
 
   The main font throughout the quiz is Josefin Sans with a back up font of sans-serif.Here we used google fonts.
@@ -121,9 +110,10 @@ The best way to promote our quiz game is through online advertisements and socia
    The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
    The submit button has a hover over contrasting colour effect.
 
+![Quizgame pallette](assets/quizgame pallete.jpg)
    ---
-
- # **Wireframe Desktop view**
+   
+ # **Wireframe views**
 
 ![Desktop wireframe](assets/ms2quizgamedesktop.jpg)
 ![Desktop wireframe](assets/ms2quizgamedesktop2.jpg)
@@ -213,6 +203,9 @@ Github is also used as the site hosting service for the final website to be publ
 
 The font used on this quiz were chosen from Google fonts.
 
+[coolors](https://coolors.co/)
+
+Insperation was gained from coolors pallete.
 
 [Balsamiq](https://balsamiq.com/)
 
