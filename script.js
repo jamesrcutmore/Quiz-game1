@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("DOMContentLoaded", function(event) } 
 
 let quizDB = [];
 const scoreboard = {...localStorage};
@@ -129,7 +129,7 @@ function getQuestions() {
                 'Content-Type'; "application/json"
             }
 
-        .then((res) => res.json())
+        then((res) => res.json())
         .then((data) => {
             let sortedData = data.map((q) => {
                 let obj = {}
@@ -228,4 +228,4 @@ muteBtn.addEventListener('click', (event)=>{
 window.onload = () => {
     getQuestions()
 }
-)
+}
