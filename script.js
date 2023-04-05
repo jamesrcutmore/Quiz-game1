@@ -124,7 +124,7 @@ submit.addEventListener('click', () => {
 });
 
 function getQuestions() {
-    fetch('https://the-trivia-api.com/api/questions?limit=20&categories=science,history', {
+    fetch('https://the-trivia-api.com/api/questions?limit=20&categories=science,history', }
             headers: {
                 'Content-Type': "application/json"
             }
