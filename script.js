@@ -1,13 +1,13 @@
+document.addEventListener("DOMContentLoaded", function(event) { 
+
 let quizDB = [];
-const scoreboard = [{
-    name: 'gamer1',
-    score: 89
-}]
+const scoreboard = {...localStorage};
 //audio selector//
 var audio = document.getElementById("myaudio");
 let timer = 0;
 
 const timerEl = document.getElementById('timer')
+
 
 function updateTimer() {
     timer--
@@ -46,16 +46,8 @@ const option1 = document.querySelector("#option1");
 const option2 = document.querySelector("#option2");
 const option3 = document.querySelector("#option3");
 const option4 = document.querySelector("#option4");
-const option5 = document.querySelector("#option5");
-const option6 = document.querySelector("#option6");
-const option7 = document.querySelector("#option7");
-const option8 = document.querySelector("#option8");
-const option9 = document.querySelector("#option9");
-const option10 = document.querySelector("#option10");
 const submit = document.querySelector("#submit");
-
 const answers = document.querySelectorAll(".answer");
-const showscore = document.querySelector("#showscore");
 
 let questionCount = 0;
 let score = 0;
@@ -102,30 +94,31 @@ submit.addEventListener('click', () => {
 
     const checkedAnswer = getCheckAnswer();
     console.log(checkedAnswer);
-
-    if (checkedAnswer === quizDB[questionCount].ans) {
-        score++;
-    };
-
-    questionCount++;
-    
-
-    if (questionCount < quizDB.length) {
-        if (checkedAnswer) {
-            deselectAll();
-            loadquestion();
-        }
-        else {
-            questionCount--
-            // alert("Please select your answer!")
-            document.querySelector('#instructions p').style.display = 'flex';
-            document.querySelector('#instructions p').innerText = 'Please select your answer!';
-            
-        }
-
-    } else {
-        final()
+    if (checkedAnswer === undefined){
+           alert("Please select your answer!");
     }
+    else{
+        if (checkedAnswer === quizDB[questionCount].ans) {
+            score++;
+        };
+        questionCount++;
+        if (questionCount < quizDB.length) {
+            if (checkedAnswer) {
+                deselectAll();
+                loadquestion();
+            }
+            else {
+                questionCount--;
+                document.querySelector('#instructions p').style.display = 'flex';
+                document.querySelector('#instructions p').innerText = 'Please select your answer!';
+            }
+    
+        } else {
+            final()
+        }
+    }
+
+    
 });
 
 function getQuestions() {
@@ -174,11 +167,9 @@ function final() {
 }
 
 function saveScores() {
-    const name = document.querySelector('#name').value
-    scoreboard.push({
-        name,
-        score
-    })
+    const name = document.querySelector('#name').value;
+    localStorage.setItem(name, score);
+    alert('Your score has been saved');
     score = 0;
 }
 const saveBtn = document.querySelector('#save_to_scores_btn')
@@ -187,17 +178,18 @@ saveBtn.addEventListener('click', () => {
 })
 
 function loadScoreboard() {
-    const scoreList = document.querySelector('#scores_list')
-    let playerscores = ''
-    scoreboard.forEach((s) => {
-        playerscores += `<li><span>${s.name} </span> <span>${s.score}</span></li>`
+    const scoreList = document.querySelector('#scores_list');
+    let playerscores = '';
+    Object.keys(localStorage).forEach((s) => {
+        playerscores += `<li><span>${s} </span> <span>${localStorage.getItem(s)}</span></li>`;
     })
 
     scoreList.innerHTML = playerscores;
 }
 
-const showscoreBtn = document.querySelector('#scoreboard')
-const showInstuctionsBtn = document.querySelector('#show_instuctions')
+const muteBtn = document.getElementById('mute');
+const showscoreBtn = document.querySelector('#scoreboard');
+const showInstuctionsBtn = document.querySelector('#show_instuctions');
 showscoreBtn.addEventListener('click', () => {
     document.querySelector('.main-div').style.display = 'none';
     document.querySelector('#show_scoreborad').style.display = 'block';
@@ -214,26 +206,19 @@ homebtn.addEventListener('click', () => {
 
 
 showInstuctionsBtn.addEventListener('click', () => {
-    // console.log('instructions');
-    document.querySelector('#instructions div').innerHTML = `
-    <ol>
-    <li>Press play button to start game</li>
-    <li>You will have 20 questions to answer ( you must answer a question before moving on to the next)</li>
-    <li>you will have 60 seconds on the timer to answer all questions</li>
-    <li>I you wish you can press the mute button for the sound</li>
-    </ol>`;
     document.querySelector('#instructions').style.display = 'flex';
-    // document.querySelector('#show_scoreborad').style.display = 'none';
-    // loadScoreboard()
 })
 
 const closebtn = document.querySelector('#close')
 
 closebtn.addEventListener('click', () => {
     document.querySelector('#instructions').style.display = 'none';
-})
+});
 
 
+muteBtn.addEventListener('click', (event)=>{
+    toggleMute();
+});
 
 
 window.onload = () => {
@@ -245,9 +230,11 @@ window.onload = () => {
 function toggleMute() {
     if (audio.muted) {
         audio.muted = false;
-        document.querySelector('#identifier span').innerText = 'Mute'
+        document.querySelector('#mute span').innerText = 'Mute'
     } else {
         audio.muted = true;
-        document.querySelector('#identifier span').innerText = 'Unmute'
+        document.querySelector('#mute span').innerText = 'Unmute'
     }
 }
+
+});
