@@ -5,6 +5,8 @@ const scoreboard = {...localStorage};
 //audio selector//
 var audio = document.getElementById("myaudio");
 let timer = 0;
+let timerId;
+let stopTimer;
 
 const timerEl = document.getElementById('timer')
 
@@ -20,11 +22,11 @@ function updateTimer() {
 
 function startTimer(time = 1) {
     timer = time
-    let timerId = setInterval(() => {
+     timerId = setInterval(() => {
         updateTimer()
     }, 1000);
 
-    setTimeout(() => {
+    stopTimer = setTimeout(() => {
         clearInterval(timerId)
         // Stop Game
         const ans = confirm("TIME'S UP, Save score")
@@ -37,7 +39,7 @@ const playBtn = document.querySelector('.start_btn')
 playBtn.addEventListener('click', (e) => {
     document.querySelector('.home_screen').style.display = 'none'
     document.querySelector('.inner-div').style.display = 'block'
-    startTimer(60)
+    startTimer(90)
     audio.play()
 })
 // ***
@@ -164,6 +166,8 @@ function final() {
     document.querySelector('.scores').innerHTML = `${score}/${quizDB.length}`
     audio.pause()
     audio.currentTime = 0
+    clearInterval(timerId)
+    clearTimeout(stopTimer)
 }
 
 function saveScores() {
