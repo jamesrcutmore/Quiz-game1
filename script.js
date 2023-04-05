@@ -128,7 +128,7 @@ function getQuestions() {
             headers); {
                 'Content-Type'; "application/json"
             }
-        })
+
         .then((res) => res.json())
         .then((data) => {
             let sortedData = data.map((q) => {
@@ -158,7 +158,7 @@ function getQuestions() {
         .catch((err) => {
             console.log(err);
         })
-}
+
 
 function final() {
     document.querySelector('.inner-div').style.display = 'none'
@@ -228,4 +228,4 @@ muteBtn.addEventListener('click', (event)=>{
 window.onload = () => {
     getQuestions()
 }
-
+)
