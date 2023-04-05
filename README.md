@@ -17,7 +17,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
   + [Existing Features](#existing-features)
   + [Features Left to Implement](#features-left-to-implement)
   + [Technologies-Used](#Technologies-Used)
-  + [Testing](#Testing)
+  + [Testing](#testing)
   + [Deployment](#Deployment)
   + [Credit](#Credit)
   + [Content](#content)
@@ -81,12 +81,12 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
  **Returning Visitor Goals**
 
-- As a Returning Visitor, I want to see my score at the end so i can progress.
+- As a Returning Visitor, I want to be able to save my score and  so i can progress.
 
 - As a Returning Visitor, I want to see if i can beat 
   my previous score.
 
-- As a returning visitor i want to know that the site is easy to navigate.
+- As a returning visitor i want to know that the site is easy to navigate,save my score and easily navigate through the site.
 
 # **Design**
 
@@ -94,7 +94,8 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
       - I wanted to keep it colorful and fun!
   
-      - Bright colours so to make it easy and fun to navigate.
+      - Bright  primary colours so to make it easy and fun to navigate.
+
 
 ![Coloors Pallete](assets/quizgamepalette.jpg)
 
@@ -105,10 +106,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
   [Google Fonts](https://fonts.google.com/)
 
 + **Imagery**
-
-   The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
-   The submit button has a hover over contrasting colour effect.
-
+  The imagery for the quiz game is simple colouful and pleasing on the eye. The navigation buttons are bright primary colour's with 3D effect movement with the hover over.
   - [Pixabay](https://pixabay.com/)
 
   - [google images](https://www.google.com/imghp?hl=en/)
@@ -150,28 +148,37 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 ### **Existing Features**
 
-Homepage jumps straight inio the first question. 
+Homepage whiche ntails navigation for game rule, mute button and leadrerboard. 
 
-The fisrt question is visable at the top of the page.
+You press play then the music starts which can be muted.
 
-Radio buttons can be clicked to choose an answer.
+you will have 90 seconds to answer all 20 questions.
 
 Multiple-choice section - gives the users four choices they can choose from.
 
-Once you've made all 10 choices a submit button should be pressed.
+Once you've made all 20 choices a submit button should be pressed.
+
+You will be prsented with a pop up message to indicate you have saved your score.
 
 once the game is finished it will shows the final score.
 
- A try again button will then be presented
+ A play again button will then be presented.
 
 ### **Features Left to Implement**
-
+ A background image faded into background.
+ More thoght into the colour scheme.
 ---
 
 
-# **Technologies Used**
 
-### Languages Used
+# **Languages Used**
+- Javascript
+- H.T.M.L
+- C.S.S
+
+# **Technologies Used**
+[Local strorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+ - Local storage was used to save score
 
 [The Trivia API](https://the-trivia-api.com/)
 
@@ -253,34 +260,41 @@ Insperation was gained from coolors pallete.
 ### Home Button
 + Home buttton tested and working correctley.
 ### Play Again
-+ Play again button tested and worked as expected.
-### Game Loader
-+ Used Chrome Developers Network tab and set Throttling to 'Slow 3G' to make sure that in the case of slow response, the loader would appear while waiting on questions to populate. 
++ Play again button tested and worked as expected. 
 ### Mute Button
 + Changed the mute button to on/off several times in one game to check for any issues, checking for both right and wrong answers. 
 ### Questions
 + Played several games to make sure that all questions were populating correctly. 
 + ### Quiz API
-+ Started quiz several times to make sur api question where loading correctley.
++ Started quiz several times to make sur api question where loading and functioning correctly.
 ### Answer Buttons
 + checked several games to make sure that all answers were populating correctly inside their buttons. 
 + Checked several games to make sure that all answers were populating for the correct question.
 + Made sure pop up appears if you do not select a question before you submit. 
  
 ### Heads Up Display
-+ Made sure that if the right answer is chosen, the score increments. 
++ Made sure that if the answer is chosen, the score increments. 
 + Made sure that if the wrong answer is chosen, the score doesn't increment. 
 + Made sure that, regardless of right or wrong answer being chosen, the question number increments. 
 ### Submit Score
-+ Tried to submit score without adding any text to the input field to ensure ```disabled``` function was working when field is left empty. 
 + Added name to input field and submitted to check submit was working. 
 ### Saved Scores
-+ Checked to make sure name and score were populating the table in the correct format.
-+ Made sure that correct name and score were being added. 
-+ Checked that scores were being added from highest to lowest. 
-+ Checked that there is a maximum of 5 scores added to the saved scores table.
-+ Made sure that low scores are not added to the table if they fall below previously saved scores. 
++ Checked to make sure name and score were  saving in the local storage correctly.
++ Made sure that correct name and score were being added.   
 + Shut down device and restarted to make ensure that scores were being saved in local storage. 
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed |  Actual Result | Outcome |
+| --- | --- | --- | --- | --- |
+| The Sites title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
+| Game rules button | Displays the instructions on how to play the game | Clicked on button |  instructions on how to play opens | Pass |
+|close button | Closes the message box | Clicked on close button | boxclosed | Pass |
+| Play Button | Tkaes you to play the game | Clicked on button | Game page opens to questions | Pass |
+| Save Scores input Button | Asks for you to save your score | Clicked on button | Name inputed | Pass |
+| All buttons - hover effect | All buttons have hovered over with movement. | Hover over each button on the page |button movenment correctly performing  when hovered over | Pass |
+|  Cursor pointer| cursor displayed when moved over buttons |  mouse  positionedover each button to check the cursor changed  | cursor changed when hoverd | Pass |
+| Mute Button | Gives player the choice to have music or not | Clicked on button | muted impliment | Pass |
+| unmute Button | Gives player the choice to have music unmuted | Clicked on button | unmuted impliment | Pass |
 ---
 # Automatic testing
 
@@ -348,7 +362,7 @@ Insperation was gained from coolors pallete.
 
 ### **Content**
 
-Throughout the process of doing this project I have done a lot of searching and learning. The codes that are copied and pasted have been marked as a comment in the relevant files. All the rest of the codes are written by myself after learning from resources. The resources and the links I used to learn each concepts are the following:
+Throughout the process of doing this project I have done a lot from searching and investigating. All resources are referenced in the credits and the codes section below. 
 
  # Codes
 
