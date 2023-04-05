@@ -124,9 +124,9 @@ submit.addEventListener('click', () => {
 });
 
 function getQuestions() {
-    fetch('https://the-trivia-api.com/api/questions?limit=20&categories=science,history',}
-            headers: {
-                'Content-Type': "application/json"
+    fetch('https://the-trivia-api.com/api/questions?limit=20&categories=science,history',
+            headers); {
+                'Content-Type'; "application/json"
             }
         })
         .then((res) => res.json())
@@ -241,4 +241,4 @@ function toggleMute() {
     }
 }
 
-});
+);
