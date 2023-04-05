@@ -1,5 +1,5 @@
-#                                  **Quiz-game1**
-# Interactive Front-End Development Project using HTML,CSS and Javascript
+#                                            **Quiz-game1**
+#                      Interactive Front-End Development Project using HTML,CSS and Javascript
 
 ![Am I Responsive image of quiz game](assets/screenshot-quiz.png)
 #                                      James cutmore Quiz-game1-2023-MS2
@@ -35,17 +35,16 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 ### **Project Goals**
 
- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief assessment to measure their science knowledge
-
- The secondary goal is to help the user get their thinking mind on,improve short-term memory and sharpen their knowledge of general science.
+- The primary goal of this project is to set up a quiz game or knowledge checker ,for the players that may become a brief    assessment to measure their science knowledge
+- The secondary goal is to help the user get their thinking mind on,improve short-term memory and sharpen their knowledge of general science.
 
 ### **Target Audience**
 
-This quiz is aimed at any age bracket or audience.
+- This quiz is aimed at any age bracket or audience.
 
-The quiz is aimed at anybody who likes to test there science knowledge.
+- The quiz is aimed at anybody who likes to test there science knowledge.
 
-The best way to promote our quiz game is through online advertisements and social media shares.
+- The best way to promote our quiz game is through online advertisements and social media shares.
 
 # **Users Stories**
 
@@ -93,9 +92,9 @@ The best way to promote our quiz game is through online advertisements and socia
 
 + **Colour Scheme** 
 
-     I wanted to keep it colorful and fun!
+      - I wanted to keep it colorful and fun!
   
-     Bright colours so to make it easy and fun to navigate.
+      - Bright colours so to make it easy and fun to navigate.
 
 ![Coloors Pallete](assets/quizgamepalette.jpg)
 
@@ -110,9 +109,15 @@ The best way to promote our quiz game is through online advertisements and socia
    The imagery for this quiz is very simple, With contrasting background colour, radio and submit buttons .pleaseing and easy on the eye.
    The submit button has a hover over contrasting colour effect.
 
+  - [Pixabay](https://pixabay.com/)
+
+  - [google images](https://www.google.com/imghp?hl=en/)
+
 
    ---
- # **sitemap**
+ # **Sitemap**
+
+ - The site is easy to navigate functional and responsive
 
 ![sitemap](assets/sitemap.jpg)
    
@@ -168,17 +173,22 @@ once the game is finished it will shows the final score.
 
 ### Languages Used
 
+[The Trivia API](https://the-trivia-api.com/)
+
+- A trivia api was used to change question and keep the player interested.
+
  [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
 
-The language used to give the site its main structure and all necessary features.
+- The language used to give the site its main structure and all necessary features.
 
 [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-  The language used to give the application its visual effects including the font, color and layout etc.
+- The language used to give the application its visual effects including the font, color and layout etc.
 
  [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-  The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+- The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+
   ---
   ---
 
@@ -235,7 +245,50 @@ Insperation was gained from coolors pallete.
 
 # **Testing**
 
-Testing was implemented through W3C CSS and mark up validation
+## Manually Testing Functionality
+### Navigation Buttons
++ Went to each page individually and clicked each button to make sure that they navigate to the correct place.
++ Went to each page individually on desktop and hovered over each button to make sure that the ```:hover``` class is applied to all.
++ Went to each page individually on mobile and made sure ```:hover``` isn't applied.
+### Home Button
++ Home buttton tested and working correctley.
+### Play Again
++ Play again button tested and worked as expected.
+### Game Loader
++ Used Chrome Developers Network tab and set Throttling to 'Slow 3G' to make sure that in the case of slow response, the loader would appear while waiting on questions to populate. 
+### Mute Button
++ Changed the mute button to on/off several times in one game to check for any issues, checking for both right and wrong answers. 
+### Questions
++ Played several games to make sure that all questions were populating correctly. 
++ ### Quiz API
++ Started quiz several times to make sur api question where loading correctley.
+### Answer Buttons
++ checked several games to make sure that all answers were populating correctly inside their buttons. 
++ Checked several games to make sure that all answers were populating for the correct question.
++ Made sure pop up appears if you do not select a question before you submit. 
+ 
+### Heads Up Display
++ Made sure that if the right answer is chosen, the score increments. 
++ Made sure that if the wrong answer is chosen, the score doesn't increment. 
++ Made sure that, regardless of right or wrong answer being chosen, the question number increments. 
+### Submit Score
++ Tried to submit score without adding any text to the input field to ensure ```disabled``` function was working when field is left empty. 
++ Added name to input field and submitted to check submit was working. 
+### Saved Scores
++ Checked to make sure name and score were populating the table in the correct format.
++ Made sure that correct name and score were being added. 
++ Checked that scores were being added from highest to lowest. 
++ Checked that there is a maximum of 5 scores added to the saved scores table.
++ Made sure that low scores are not added to the table if they fall below previously saved scores. 
++ Shut down device and restarted to make ensure that scores were being saved in local storage. 
+---
+# Automatic testing
+
+### Validation
++ I used the W3C Markup Validation Service on all pages sceins quizes pages. I also validated the my  style.css with the CSS Validator.
+
++ JS Hint was used to validate javascript.
+
 
 # **Deployment**
 
