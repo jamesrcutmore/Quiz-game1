@@ -229,16 +229,3 @@ window.onload = () => {
     getQuestions()
 }
 
-
-
-function toggleMute() {
-    if (audio.muted) {
-        audio.muted = false;
-        document.querySelector('#mute span').innerText = 'Mute'
-    } else {
-        audio.muted = true;
-        document.querySelector('#mute span').innerText = 'Unmute'
-    }
-}
-
-);
