@@ -144,9 +144,9 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ---
 ---
 
-# **Features**
+### **Features**
 
-### **Existing Features**
+# **Existing Features**
 
 Homepage whiche ntails navigation for game rule, mute button and leadrerboard. 
 
