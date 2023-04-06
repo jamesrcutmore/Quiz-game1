@@ -7,19 +7,19 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ## **Table of Contents**
 
   + [About](#about)
-  + [User Experience(UX)](#user-experience)
+  + [User Experience(UX)](#user-experience(ux))
   + [Project Goals](#project-goals)
   + [Target Audience](#target-audience)
   + [User Stories](#user-stories)
   + [Design](#design)
   + [Wireframe](#wireframe-views)
-  + [Features](#Features)
+  + [Features](#features)
   + [Existing Features](#existing-features)
   + [Features Left to Implement](#features-left-to-implement)
-  + [Technologies-Used](#Technologies-Used)
+  + [Technologies-Used](#technologies-used)
   + [Testing](#testing)
-  + [Deployment](#Deployment)
-  + [Credit](#Credit)
+  + [Deployment](#deployment)
+  + [Credits](#credits)
   + [Content](#content)
   + [Media](#media)
   + [Acknowledgements](#acknowledgements)
@@ -31,7 +31,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 + This Quiz is designed to include a wide range of randomised questions , all based on science , At the end , you will get the chance to save you score on the leadrboard and try again.. Have fun!
 
-## **User Experience (UX)**
+# **User Experience (UX)**
 
 ### **Project Goals**
 
@@ -46,7 +46,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
-# **Users Stories**
+# **User Stories**
 
  **General User Goals**
  - I want to be able to easily navigate through the 
