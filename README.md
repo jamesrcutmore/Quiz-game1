@@ -33,6 +33,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
   the chance to save you score on the leadrboard and try again.. Have fun!
 
 # **User Experience**
+
 - I want the user to experience ease of use
 
 ### **Project Goals**
