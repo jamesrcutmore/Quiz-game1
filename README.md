@@ -376,7 +376,6 @@ Throughout the process of doing this project I have done a lot from searching an
 
    [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
 
- User Experience
 
    [How To find your Target audience..Adam Erhart..](https://youtu.be/FzEkHlYt2uA/)
 
