@@ -7,7 +7,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ## **Table of Contents**
 
   + [About](#about)
-  + [Users Experience(UX)](#users-experience)
+  + [User Experience(UX)](#user-experience)
   + [Project Goals](#project-goals)
   + [Target Audience](#target-audience)
   + [User Stories](#user-stories)
@@ -31,7 +31,7 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 + This Quiz is designed to include a wide range of randomised questions , all based on science , At the end , you will get the chance to save you score on the leadrboard and try again.. Have fun!
 
-## **Users Experience (UX)**
+## **User Experience (UX)**
 
 ### **Project Goals**
 
@@ -148,21 +148,21 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 # **Existing Features**
 
-Homepage whiche ntails navigation for game rule, mute button and leadrerboard. 
+- Homepage whiche ntails navigation for game rule, mute button and leadrerboard. 
 
-You press play then the music starts which can be muted.
+- You press play then the music starts which can be muted.
 
-you will have 90 seconds to answer all 20 questions.
+- you will have 90 seconds to answer all 20 questions.
 
-Multiple-choice section - gives the users four choices they can choose from.
+- Multiple-choice section - gives the users four choices they can choose from.
 
-Once you've made all 20 choices a submit button should be pressed.
+- Once you've made all 20 choices a submit button should be pressed.
 
-You will be prsented with a pop up message to indicate you have saved your score.
+- You will be presented with a pop up message to indicate you have saved your score.
 
-once the game is finished it will shows the final score.
+- once the game is finished it will shows the final score.
 
- A play again button will then be presented.
+ - A play again button will then be presented.
 
 ### **Features Left to Implement**
  A background image faded into background.
