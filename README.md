@@ -6,32 +6,34 @@
 A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 ## **Table of Contents**
 
-  + [About](#about)
-  + [User Experience(UX)](#user-experience(ux))
-  + [Project Goals](#project-goals)
-  + [Target Audience](#target-audience)
-  + [User Stories](#user-stories)
-  + [Design](#design)
-  + [Wireframe](#wireframe-views)
-  + [Features](#features)
-  + [Existing Features](#existing-features)
-  + [Features Left to Implement](#features-left-to-implement)
-  + [Technologies-Used](#technologies-used)
-  + [Testing](#testing)
-  + [Deployment](#deployment)
-  + [Credits](#credits)
-  + [Content](#content)
-  + [Media](#media)
-  + [Acknowledgements](#acknowledgements)
+  * [About](#about)
+  * [User Experience](#User-experience)
+  * [Project Goals](#project-goals)
+  * [Target Audience](#target-audience)
+  * [User Stories](#user-stories)
+  * [Design](#design)
+  * [Wireframe](#wireframe-views)
+  * [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+  * [Technologies-Used](#technologies-used)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
-  # **About** 
-+ Everyone loves a quiz?! The fun way to fill your spare time and keep you and your family entertained!
+# **About** 
+- Everyone loves a quiz?! The fun way to fill your spare time and keep you and your family entertained!
 
-+ This quiz in perticular is based on the scinece, how much do you really know? Take a little time complete the quiz, and you will find out!
+- This quiz in perticular is based on the scinece, how much do you really know? Take a little time complete the quiz, and you will find out!
 
-+ This Quiz is designed to include a wide range of randomised questions , all based on science , At the end , you will get the chance to save you score on the leadrboard and try again.. Have fun!
+-  This Quiz is designed to include a wide range of randomised questions , all based on science , At the end , you will get 
+  the chance to save you score on the leadrboard and try again.. Have fun!
 
-# **User Experience (UX)**
+# **User Experience**
+- I want the user to experience ease of use
 
 ### **Project Goals**
 
