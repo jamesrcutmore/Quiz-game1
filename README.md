@@ -309,74 +309,57 @@ Insperation was gained from coolors pallete.
 # Lighthouse performance
 
 + ## Desktop Home screen
-- ![Desktop lighthouse performance](assets/lighthousedesktop-home.jpg)
-- ![Desktop perfomance score](assets/lighthousedesktop-homeperformance.jpg)
-- ![Desktop perfomance Game Rules](assets/lighthousedesktop-gamerulespage.jpg)
-- ![Desktop perfomance score](assets/lighthousedesktop-gamerulespagescore.jpg)
-- ![Desktop perfomance leaderboard](assets/lighthousedesktop-leaderboard.jpg)
-- ![Desktop perfomance score](assets/lighthousedesktop-leaderboardscore.jpg)
-- ![Desktop perfomance questions page](assets/lighthousedesktop-questionspage.jpg)
-- ![Desktop perfomance questions page score](assets/lighthousedesktop-questionspagescore.jpg)
+ ![Desktop lighthouse performance](assets/lighthousedesktop-home.jpg)
++ # Desktop Home screen score
+ ![Desktop perfomance score](assets/lighthousedesktop-homeperformance.jpg)
++ # Desktop Game Rules
+ ![Desktop perfomance Game Rules](assets/lighthousedesktop-gamerulespage.jpg)
++ # Desktop Game  Rule score
+ ![Desktop perfomance score](assets/lighthousedesktop-gamerulespagescore.jpg)
++ # Desktop Leaderboard
+ ![Desktop perfomance leaderboard](assets/lighthousedesktop-leaderboard.jpg)
++ # Desktop Leaderboard Score
+ ![Desktop perfomance score](assets/lighthousedesktop-leaderboardscore.jpg)
++ # Desktop Question Page
+ ![Desktop perfomance questions page](assets/lighthousedesktop-questionspage.jpg)
++ # Desktop Qeustions page Score
+ ![Desktop perfomance questions page score](assets/lighthousedesktop-questionspagescore.jpg)
 + ## Mobile view Home screen
-- ![Mobile perfomance Home](assets/lighthousemobile-home.jpg)
-- ![Mobile perfomance gamerules score](assets/lighthousemobile-gamerulesscore.jpg)
-- ![Mobile perfomance leadreboard score](assets/lighthousemobile-leaderboardscore.jpg)
-- ![Mobile perfomance questions score](assets/lighthousemobile-questionspage.jpg)
-- ![Mobile perfomance game rules](assets/lighthousemobile-gamerules.jpg)
-# **Deployment**
+ ![Mobile perfomance Home](assets/lighthousemobile-home.jpg)
+ + # Mobile view Leaderboard Page
+ ![Mobile perfomance leadreboard score](assets/lighthousemobile-leaderboardscore.jpg)
+ + # Mobile view Questions page Score
+ ![Mobile perfomance questions score](assets/lighthousemobile-questionspage.jpg)
+ + # Mobile view Games Rules page
+ ![Mobile perfomance game rules](assets/lighthousemobile-gamerules.jpg)
 
+ ## Deployment & Local Development
 
-### **Deploy To GitHub Pages**
+### Deploying to Github Pages
 
-1. Logged into Github account.
+* Choose the repository you want to deploy from the main overview.
+* Go to settings by clicking on the icon on the menu.
+* In the left navigation, select the "Pages" option.
+* Under "Source", choose "Master" branch and click "Save".
+* After it's done, you will see a message saying "Your site is ready to be published at (insert url here)".
 
-2. Select repository.
+### Local Development
+#### How To Fork
 
-3. Select Jamescutmore-Quizgame1.
+Forking a repository is the process of creating a copy of the original repository. This enables you to make changes without affecting the main repository. 
 
-4. On the top right navigation click on settings.
+To do so:-
+* go to the GitHub repository you want to copy.
+* select the 'Fork' button located in the top right corner, under your profile icon. 
+* Once complete, you will now have your own version of the repository to make changes to.
 
-5. Under the settings section, scroll down to the GitHub Pages section.
+#### How To Clone
 
-6. Select Main Branch from the source dropdown menu.
+To copy a GitHub repository:-
+* first navigate to the repository you wish to copy. 
+* click on the 'Code' button (which has a download icon) and copy the link provided.
+* in the Gitpod Terminal, navigate to the directory where you wish to place the clone. Then, type 'git clone' and paste the link you copied earlier and press enter. This process can also be completed using VSCode.
 
-7. Click save.
-
-8. Once clicked, this publishes the project to GitHub Pages and displays the site URL. Click on the URL to view the live site.
-
-### **Making a clone or download zip to run locally**
-
-1. Log into GitHub account.
-
-2. Select repository.
-
-3. Select jamescutmore/Quiz-game1: quiz game ms2
-
-4. Click on the Code dropdown button next to the green Gitpod button.
-
-5. Click on the clipboard icon to copy the clone URL.
-
-6. Open Git Bash.
-
-7. Change the current working directory to the location where you want the cloned directory.
-
-8. Type "git clone" in the Command Line and then paste the URL copied in step 5.
-
-9. Press enter to create your local clone.
-
-10. Alternately, click on Download ZIP, unpack locally and open with a local code editor.
-
-### **Forking the GitHub Repository**
-
-1. Log into GitHub.
-
-2. Select repository.
-
-3. Select jamescutmore/Quizgame1
-
-4. At the very top right corner click "fork".
-
-5. You will have a copy of the original repository in your own GitHub account.
 
 # **Credits**
 
