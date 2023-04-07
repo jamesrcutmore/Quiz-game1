@@ -306,8 +306,25 @@ Insperation was gained from coolors pallete.
 
 + JS Hint was used to validate javascript.
 
+# Lighthouse performance
 
++ ## Desktop Home screen
+- ![Desktop lighthouse performance](assets/lighthousedesktop-home.jpg)
+- ![Desktop perfomance score](assets/lighthousedesktop-homeperformance.jpg)
+- ![Desktop perfomance Game Rules](assets/lighthousedesktop-gamerulespage.jpg)
+- ![Desktop perfomance score](assets/lighthousedesktop-gamerulespagescore.jpg)
+- ![Desktop perfomance leaderboard](assets/lighthousedesktop-leaderboard.jpg)
+- ![Desktop perfomance score](assets/lighthousedesktop-leaderboardscore.jpg)
+- ![Desktop perfomance questions page](assets/lighthousedesktop-questionspage.jpg)
+- ![Desktop perfomance questions page score](assets/lighthousedesktop-questionspagescore.jpg)
++ ## Mobile view Home screen
+- ![Mobile perfomance Home](assets/lighthousemobile-home.jpg)
+- ![Mobile perfomance gamerules score](assets/lighthousemobile-gamerulesscore.jpg)
+- ![Mobile perfomance leadreboard score](assets/lighthousemobile-leaderboardscore.jpg)
+- ![Mobile perfomance questions score](assets/lighthousemobile-questionspage.jpg)
+- ![Mobile perfomance game rules](assets/lighthousemobile-gamerules.jpg)
 # **Deployment**
+
 
 ### **Deploy To GitHub Pages**
 
