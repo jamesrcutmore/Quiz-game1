@@ -320,9 +320,12 @@ Insperation was gained from coolors pallete.
 # Automatic testing
 
 ### Validation
-+ I used the W3C Markup Validation Service on all pages sceins quizes pages. I also validated the my  style.css with the CSS Validator.
++ W3C Validation was used:
+ - HTML
+ - CSS
+ - JS Hint was used to validate javascript.
 
-+ JS Hint was used to validate javascript.
+ #  Links to above mentioned are in languages used.
 
 # Known bugs
 
@@ -334,8 +337,6 @@ Insperation was gained from coolors pallete.
 + Solved bug
 
 ![Known fixed bugs](assets/known-fixedbug.jpg)
-
-
 
 
 
@@ -414,13 +415,6 @@ Throughout the process of doing this project I have done a lot from searching an
    [How To find your Target audience..Adam Erhart..](https://youtu.be/FzEkHlYt2uA/)
 
    [How to write a good user story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#.YFM57o-2eQY.linkedin)
-
-### **Media**
-
- Images
-
-   The main image for the quiz is the Qeustion an the multible choice of answers.
-   Also there is a submit button to press once youve made your choice.
 
 
 ### **Acknowledgements**
