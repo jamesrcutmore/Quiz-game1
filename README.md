@@ -110,15 +110,15 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 + **Imagery**
   The imagery for the quiz game is simple colouful and pleasing on the eye. The navigation buttons are bright primary colour's with 3D effect movement with the hover over.
-  - [Pixabay](https://pixabay.com/)
+- [Pixabay](https://pixabay.com/)
 
-  - [google images](https://www.google.com/imghp?hl=en/)
+- [google images](https://www.google.com/imghp?hl=en/)
 
 
    ---
  # **Sitemap**
 
- - The site is easy to navigate functional and responsive
+- The site is easy to navigate functional and responsive
 
 ![sitemap](assets/sitemap.jpg)
    
@@ -151,11 +151,11 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 # **Existing Features**
 
-- Homepage whiche ntails navigation for game rule, mute button and leadrerboard. 
+- Homepage which entails navigation for game rule, mute button and leadrerboard. 
 
 - You press play then the music starts which can be muted.
 
-- you will have 90 seconds to answer all 20 questions.
+- you will have 60 seconds to answer all 20 questions.
 
 - Multiple-choice section - gives the users four choices they can choose from.
 
@@ -165,14 +165,14 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 - once the game is finished it will shows the final score.
 
- - A play again button will then be presented.
+- You are then giving the oppertunity to save your score to the leaderboard.
+
+- A play again button will then be presented.
 
 ### **Features Left to Implement**
  A background image faded into background.
  More thoght into the colour scheme.
 ---
-
-
 
 # **Languages Used**
 - Javascript
@@ -257,9 +257,9 @@ Insperation was gained from coolors pallete.
 
 ## Manually Testing Functionality
 ### Navigation Buttons
-+ Went to each page individually and clicked each button to make sure that they navigate to the correct place.
-+ Went to each page individually on desktop and hovered over each button to make sure that the ```:hover``` class is applied to all.
-+ Went to each page individually on mobile and made sure ```:hover``` isn't applied.
++ Tested each page individually and clicked each button to make sure that they navigate to the correct place.
++ Tested each page individually on desktop and hovered over each button to make sure that Hover over is applied .
++ Tested each page individually on mobile and made sure hover over isn't applied.
 ### Home Button
 + Home buttton tested and working correctley.
 ### Play Again
@@ -292,12 +292,16 @@ Insperation was gained from coolors pallete.
 | The Sites title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
 | Game rules button | Displays the instructions on how to play the game | Clicked on button |  instructions on how to play opens | Pass |
 |close button | Closes the message box | Clicked on close button | boxclosed | Pass |
-| Play Button | Tkaes you to play the game | Clicked on button | Game page opens to questions | Pass |
+| Play Button | Takes you to play the game | Clicked on button | Game page opens to questions | Pass |
 | Save Scores input Button | Asks for you to save your score | Clicked on button | Name inputed | Pass |
 | All buttons - hover effect | All buttons have hovered over with movement. | Hover over each button on the page |button movenment correctly performing  when hovered over | Pass |
 |  Cursor pointer| cursor displayed when moved over buttons |  mouse  positionedover each button to check the cursor changed  | cursor changed when hoverd | Pass |
 | Mute Button | Gives player the choice to have music or not | Clicked on button | muted impliment | Pass |
 | unmute Button | Gives player the choice to have music unmuted | Clicked on button | unmuted impliment | Pass |
+|Facebook social media link| Click link should take you directley to the site| Clicked link| straight to link as exspected | pass|
+|Twitter social media link| Click link should take you directley to the site| Clicked link| straight to link as exspected | pass|
+|Instagram social media link| Click link should take you directley to the site| Clicked link| straight to link as exspected | pass|
+|Pintrest social media link| Click link should take you directley to the site| Clicked link| straight to link as exspected | pass|
 ---
 # Automatic testing
 
