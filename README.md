@@ -34,8 +34,10 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
   the chance to save you score on the leadrboard and try again.. Have fun!
 
 # **User Experience**
-
-- I want the user to experience ease of use
+- As a user i want a vibrant,fun and a challenging quiz.
+- I want the user to experience ease of use.
+- I want to save my score.
+- As a user i want the game rules to be clear and easy to follow.
 
 ### **Project Goals**
 
@@ -200,7 +202,8 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
  [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-- The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+- The language used to implement the site's interactive features, allow the users to be interactive and make actions 
+  during their visit.
 
   ---
   ---
@@ -278,7 +281,7 @@ Insperation was gained from coolors pallete.
 + Checked several games to make sure that all answers were populating for the correct question.
 + Made sure pop up appears if you do not select a question before you submit. 
  
-### main Game Display Display
+### Main Game Display 
 + Made sure that if the answer is chosen, the score increments. 
 + Made sure that if the wrong answer is chosen, the score doesn't increment. 
 + Made sure that, regardless of right or wrong answer being chosen, the question number increments. 
