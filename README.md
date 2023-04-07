@@ -95,9 +95,9 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 + **Colour Scheme** 
 
-      - I wanted to keep it colorful and fun!
+- I wanted to keep it colorful and fun!
   
-      - Bright  primary colours so to make it easy and fun to navigate.
+- Bright  primary colours so to make it easy and fun to navigate.
 
 
 ![Coloors Pallete](assets/quizgamepalette.jpg)
