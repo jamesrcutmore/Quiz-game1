@@ -1,12 +1,13 @@
-#                                            **Quiz-game1**
+#                                            **Science Quiz Game**
 #                      Interactive Front-End Development Project using HTML,CSS and Javascript
 
 ![Am I Responsive image of quiz game](assets/screenshot-quiz.png)
 #                                      James cutmore Quiz-game1-2023-MS2
 A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
+
 ## **Table of Contents**
 
-  * [About](#about)
+ * [About](#about)
   * [User Experience](#User-experience)
   * [Project Goals](#project-goals)
   * [Target Audience](#target-audience)
@@ -169,9 +170,11 @@ A live website can be found [here](https://jamesrcutmore.github.io/Quiz-game1/)
 
 - A play again button will then be presented.
 
-### **Features Left to Implement**
- A background image faded into background.
- More thoght into the colour scheme.
+# **Features Left to Implement**
++ A background image faded into background.
+  More thoght into the colour scheme.
++ To have score's showing in decending order.
++ To have a sound effect added to radio button's when question is answered.
 ---
 
 # **Languages Used**
@@ -275,7 +278,7 @@ Insperation was gained from coolors pallete.
 + Checked several games to make sure that all answers were populating for the correct question.
 + Made sure pop up appears if you do not select a question before you submit. 
  
-### Heads Up Display
+### main Game Display Display
 + Made sure that if the answer is chosen, the score increments. 
 + Made sure that if the wrong answer is chosen, the score doesn't increment. 
 + Made sure that, regardless of right or wrong answer being chosen, the question number increments. 
@@ -285,14 +288,25 @@ Insperation was gained from coolors pallete.
 + Checked to make sure name and score were  saving in the local storage correctly.
 + Made sure that correct name and score were being added.   
 + Shut down device and restarted to make ensure that scores were being saved in local storage. 
-`Home Page`
+### Timer
++ Timer works as exspected no issues.
++ Timer stops when Answers are answered before time is up.
++ Time's up message displayed when 60 seconds up.
+### Questions Answered
++ You must answer a question before moving onto next.
++ Submit button will activate a message "Please answer Question".
+
 
 | Feature | Expected Outcome | Testing Performed |  Actual Result | Outcome |
 | --- | --- | --- | --- | --- |
 | The Sites title | Link directs the user back to the home page | Clicked title |  page reloads | Pass |
 | Game rules button | Displays the instructions on how to play the game | Clicked on button |  instructions on how to play opens | Pass |
 |close button | Closes the message box | Clicked on close button | boxclosed | Pass |
+|Radio  button | Answers a question | Clicked button | Question answers | Pass |
 | Play Button | Takes you to play the game | Clicked on button | Game page opens to questions | Pass |
+| Please Answer Question on submit if nothing answered message | Message pop's up | Message popped up when no questions answered  | Pass |
+| Audio loop | When play button is clicked music loop will start | Clicked on button | Music plays | Pass |
+| Timer  | When play button is clicked 60 seconds is displayed on timer | Clicked Play | Timer Starts | Pass |
 | Save Scores input Button | Asks for you to save your score | Clicked on button | Name inputed | Pass |
 | All buttons - hover effect | All buttons have hovered over with movement. | Hover over each button on the page |button movenment correctly performing  when hovered over | Pass |
 |  Cursor pointer| cursor displayed when moved over buttons |  mouse  positionedover each button to check the cursor changed  | cursor changed when hoverd | Pass |
@@ -309,6 +323,21 @@ Insperation was gained from coolors pallete.
 + I used the W3C Markup Validation Service on all pages sceins quizes pages. I also validated the my  style.css with the CSS Validator.
 
 + JS Hint was used to validate javascript.
+
+# Known bugs
+
+ ![Known bugs](assets/known-bugs.jpg)
+
+ + Game rules instruction's would initianly not implement, however after rectifying a class for an id in the code the   
+   problem was solved.
+---
++ Solved bug
+
+![Known fixed bugs](assets/known-fixedbug.jpg)
+
+
+
+
 
 # Lighthouse performance
 
@@ -404,6 +433,6 @@ Help and support from fellow students in the Slack community.
 
 Tutor support and student care team.
 
- My wife Lyndsay cutmore support and help with testing and encouragement.
+My wife Lyndsay cutmore support and help with testing and encouragement.
 
 Should you have any queries please reach me on rob_cutmore@hotmail.com
